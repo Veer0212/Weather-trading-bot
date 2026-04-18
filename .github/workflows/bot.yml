@@ -1,0 +1,97 @@
+name: Polymarket Weather Bot
+
+# Runs the paper-trading bot every hour on GitHub's infrastructure.
+# Each run does a single scan/cycle, then commits any new trades + dashboard
+# state back to the repo. The dashboard is served via GitHub Pages from
+# the same branch, so it updates automatically.
+
+on:
+  # Every hour at :07 past (offset from :00 to dodge cron congestion).
+  schedule:
+    - cron: '7 * * * *'
+  # Also run on every push to main so you can test the pipeline.
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'logs/**'
+      - 'dashboard.html'
+      - '**/*.md'
+  # Manual trigger from the Actions tab.
+  workflow_dispatch:
+    inputs:
+      bankroll:
+        description: 'Paper bankroll (USD)'
+        required: false
+        default: '1000'
+
+# Required to commit logs/trades.jsonl back to the repo.
+permissions:
+  contents: write
+
+# Don't stack runs if a previous one is still going.
+concurrency:
+  group: bot-run
+  cancel-in-progress: false
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          # We need full history so we can push commits back.
+          fetch-depth: 0
+          # Use the default GITHUB_TOKEN; it has contents:write from permissions above.
+          persist-credentials: true
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run one bot cycle
+        env:
+          BANKROLL: ${{ github.event.inputs.bankroll || '1000' }}
+        run: |
+          python run.py --once --bankroll "$BANKROLL" --log-dir logs
+          echo "=== Run summary ==="
+          if [ -f logs/dashboard_data.json ]; then
+            python -c "import json; d=json.load(open('logs/dashboard_data.json')); \
+              print(f\"Markets scanned: {len(d['markets_scanned'])}\"); \
+              print(f\"Open trades    : {d['n_open']}\"); \
+              print(f\"Open exposure  : \${d['open_exposure_usd']:.2f}\"); \
+              print(f\"Realized P&L   : \${d['realized_pnl_usd']:.2f}\")"
+          fi
+
+      - name: Commit updated logs
+        run: |
+          git config user.name  "polymarket-weather-bot[bot]"
+          git config user.email "polymarket-weather-bot@users.noreply.github.com"
+          git add logs/ || true
+          if git diff --cached --quiet; then
+            echo "No log changes to commit."
+          else
+            # Timestamp in commit message for easy scanning in the log.
+            TS=$(date -u +"%Y-%m-%d %H:%M UTC")
+            git commit -m "bot: cycle $TS" -m "[skip ci]"
+            # Pull-rebase in case a concurrent manual run pushed something.
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Upload logs as artifact (7-day retention)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bot-logs-${{ github.run_number }}
+          path: logs/
+          retention-days: 7
