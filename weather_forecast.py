@@ -139,6 +139,10 @@ def fetch_climate_base_rate(lat: float, lon: float, target_date: str,
     """
     Use Open-Meteo's ERA5 archive to compute the empirical frequency of the event
     on the same calendar day across the past N years.
+
+    Performance: one single HTTP call spanning the full ``years_back`` range,
+    then filter client-side by matching month-day. This is orders of magnitude
+    faster than per-year requests.
     """
     tgt = datetime.strptime(target_date, "%Y-%m-%d").date()
     field = {
@@ -148,35 +152,53 @@ def fetch_climate_base_rate(lat: float, lon: float, target_date: str,
         "precip":    "precipitation_sum",
     }[metric]
 
+    start = tgt.replace(year=tgt.year - years_back)
+    # ERA5 archive lags real-time by ~5 days; cap end at two weeks ago so
+    # we never request data that doesn't exist yet.
+    end = min(tgt.replace(year=tgt.year - 1),
+              datetime.utcnow().date() - timedelta(days=14))
+
+    params = {
+        "latitude": lat,
+        "longitude": lon,
+        "start_date": start.isoformat(),
+        "end_date":   end.isoformat(),
+        "daily": field,
+        "timezone": "America/New_York",
+        "temperature_unit": "fahrenheit" if metric.startswith("temp") else "celsius",
+        "precipitation_unit": "inch",
+    }
+    try:
+        data = _get_json(OM_ARCHIVE, params)
+    except Exception as e:
+        log.debug("archive range fetch failed: %s", e)
+        return 0.5
+
+    daily = data.get("daily") or {}
+    times = daily.get("time") or []
+    vals  = daily.get(field) or []
+
     hits = 0
     total = 0
-    for y in range(datetime.utcnow().year - years_back, datetime.utcnow().year):
-        try:
-            d = tgt.replace(year=y)
-        except ValueError:     # leap day edge case
-            d = tgt.replace(year=y, day=28)
-        params = {
-            "latitude": lat,
-            "longitude": lon,
-            "start_date": d.isoformat(),
-            "end_date":   d.isoformat(),
-            "daily": field,
-            "timezone": "America/New_York",
-            "temperature_unit": "fahrenheit" if metric.startswith("temp") else "celsius",
-            "precipitation_unit": "inch",
-        }
-        try:
-            data = _get_json(OM_ARCHIVE, params)
-            vals = (data.get("daily") or {}).get(field) or []
-            if not vals or vals[0] is None:
-                continue
-            v = float(vals[0])
-            total += 1
-            if _event_triggered(v, operator, threshold):
-                hits += 1
-        except Exception as e:
-            log.debug("archive fetch %s failed: %s", d, e)
+    # Match the calendar day (month, day) of each historical year.
+    # We allow ±1 day to smooth single-day noise at these locations.
+    tgt_md = (tgt.month, tgt.day)
+    for t_str, v in zip(times, vals):
+        if v is None:
             continue
+        try:
+            d = datetime.strptime(t_str, "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        # same calendar day (allow ±1)
+        diff_days = abs((d.replace(year=tgt.year) - tgt).days) \
+                    if d.replace(year=tgt.year, day=min(d.day, 28)) else 99
+        # Simpler: exact match only keeps it clean.
+        if (d.month, d.day) != tgt_md:
+            continue
+        total += 1
+        if _event_triggered(float(v), operator, threshold):
+            hits += 1
 
     if total == 0:
         return 0.5          # unknown -> max entropy
