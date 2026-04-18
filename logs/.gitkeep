@@ -1,0 +1,2 @@
+# Placeholder so git tracks the logs/ directory even when empty.
+# The bot writes dashboard_data.json and trades.jsonl here on every cycle.
