@@ -1,0 +1,5 @@
+requests>=2.31.0
+numpy>=1.26.0
+# Optional -- only needed if you flip to live trading mode:
+# py-clob-client>=0.14.0
+# web3>=6.15.0
