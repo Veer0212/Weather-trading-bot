@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Environment & secrets -- DO NOT COMMIT
+.env
+.env.local
+*.pem
+*.key
+POLYMARKET_PRIVATE_KEY
+secrets.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local log files (CI has its own logs directory that IS committed)
+*.log
+bot.log
+
+# Cached data
+data/
+.cache/
