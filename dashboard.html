@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polymarket Weather Bot · Live</title>
+<style>
+  :root {
+    --bg: #0b0f15; --panel: #121824; --panel2: #1b2333;
+    --txt: #e6edf3; --mute: #8aa0b8; --accent: #4cc38a; --danger: #ff5c7c;
+    --warn: #f7b955; --border: #223049;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font: 14px/1.4 "SF Mono", "Menlo", "Consolas", monospace;
+    color: var(--txt); background: radial-gradient(1200px 600px at 20% -10%, #1a2440 0%, #0b0f15 60%);
+    min-height: 100vh;
+  }
+  header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 18px 32px; border-bottom: 1px solid var(--border);
+    background: rgba(7, 10, 16, 0.85); backdrop-filter: blur(12px);
+    position: sticky; top: 0; z-index: 5;
+  }
+  header h1 { margin: 0; font-size: 16px; letter-spacing: 0.5px; }
+  header h1 .dot {
+    display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+    background: var(--accent); margin-right: 8px; animation: pulse 1.2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+  .muted { color: var(--mute); }
+  main { padding: 24px 32px 60px; max-width: 1400px; margin: 0 auto; }
+  .kpis {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px; margin-bottom: 28px;
+  }
+  .kpi {
+    background: var(--panel); border: 1px solid var(--border);
+    padding: 14px 18px; border-radius: 10px;
+  }
+  .kpi .label { color: var(--mute); font-size: 11px; text-transform: uppercase; letter-spacing: 0.7px; }
+  .kpi .value { font-size: 22px; margin-top: 6px; font-weight: 600; }
+  .kpi.good .value { color: var(--accent); }
+  .kpi.bad  .value { color: var(--danger); }
+  .kpi.warn .value { color: var(--warn); }
+  section { margin-top: 30px; }
+  section h2 { font-size: 13px; letter-spacing: 1.2px; text-transform: uppercase;
+               color: var(--mute); margin-bottom: 12px; }
+  table {
+    width: 100%; border-collapse: collapse; background: var(--panel);
+    border: 1px solid var(--border); border-radius: 10px; overflow: hidden;
+    font-size: 12.5px;
+  }
+  th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+  th { background: var(--panel2); color: var(--mute); font-weight: 500; font-size: 11px;
+       text-transform: uppercase; letter-spacing: 0.6px; }
+  tbody tr:hover { background: rgba(255,255,255,0.03); }
+  .side-yes { color: var(--accent); font-weight: 600; }
+  .side-no  { color: var(--danger); font-weight: 600; }
+  .edge-big { color: var(--accent); font-weight: 600; }
+  .edge-sm  { color: var(--warn); }
+  .q { max-width: 420px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .q small { color: var(--mute); }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 10.5px;
+           background: var(--panel2); color: var(--mute); border: 1px solid var(--border); }
+  .empty { text-align: center; color: var(--mute); padding: 40px; }
+  footer { text-align: center; color: var(--mute); font-size: 11px; padding: 24px; }
+  a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header>
+  <h1><span class="dot"></span>POLYMARKET WEATHER BOT · <span class="muted">paper trading</span></h1>
+  <div class="muted">Last update: <span id="ts">—</span> · auto-refresh <span id="nextRefresh">60s</span></div>
+</header>
+<main>
+  <div class="kpis" id="kpis"></div>
+
+  <section>
+    <h2>Open Positions</h2>
+    <div id="openWrap"></div>
+  </section>
+
+  <section>
+    <h2>Markets Scanned (top 30 by volume)</h2>
+    <div id="marketsWrap"></div>
+  </section>
+
+  <section>
+    <h2>Recent Settlements</h2>
+    <div id="settledWrap"></div>
+  </section>
+</main>
+<footer>
+  Open-Meteo ensemble (GFS + ECMWF + ICON + GEM) · Polymarket Gamma API · Fractional Kelly sizing ·
+  <a href="https://polymarket.com" target="_blank">polymarket.com</a>
+</footer>
+
+<script>
+const REFRESH_MS = 60_000;
+
+function fmtPct(x) { return (100*x).toFixed(1) + '%'; }
+function fmtUsd(x) {
+  const sign = x < 0 ? '-' : '';
+  return sign + '$' + Math.abs(x).toLocaleString(undefined, { maximumFractionDigits: 2 });
+}
+
+async function tick() {
+  let data = null;
+  try {
+    const r = await fetch('logs/dashboard_data.json?t=' + Date.now());
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    data = await r.json();
+  } catch (e) {
+    document.getElementById('kpis').innerHTML =
+      '<div class="kpi warn"><div class="label">bot status</div><div class="value">waiting for first cycle…</div></div>';
+    return;
+  }
+
+  document.getElementById('ts').textContent = new Date(data.generated_at).toLocaleString();
+
+  const kpis = [
+    { label: 'Bankroll',        value: fmtUsd(data.bankroll_usd) },
+    { label: 'Open Exposure',   value: fmtUsd(data.open_exposure_usd), cls: 'warn' },
+    { label: 'Realized P&L',    value: fmtUsd(data.realized_pnl_usd),
+      cls: data.realized_pnl_usd >= 0 ? 'good' : 'bad' },
+    { label: 'Expected Open P&L', value: fmtUsd(data.expected_open_pnl_usd),
+      cls: data.expected_open_pnl_usd >= 0 ? 'good' : 'bad' },
+    { label: 'Open Trades',     value: data.n_open },
+    { label: 'Settled',         value: `${data.wins}W / ${data.losses}L` },
+  ];
+  document.getElementById('kpis').innerHTML = kpis.map(k =>
+    `<div class="kpi ${k.cls || ''}"><div class="label">${k.label}</div>
+     <div class="value">${k.value}</div></div>`
+  ).join('');
+
+  // Open positions
+  const open = data.open_trades || [];
+  if (open.length === 0) {
+    document.getElementById('openWrap').innerHTML =
+      '<div class="empty">No open positions. Bot is hunting for edges.</div>';
+  } else {
+    let rows = open.slice().reverse().map(t => `
+      <tr>
+        <td class="q" title="${t.question}">${t.question}
+          <br><small>${t.slug}</small></td>
+        <td><span class="side-${t.side.toLowerCase()}">${t.side}</span></td>
+        <td>${(t.entry_price*100).toFixed(1)}¢</td>
+        <td>${fmtPct(t.model_probability)}</td>
+        <td class="${t.edge >= 0.10 ? 'edge-big' : 'edge-sm'}">+${fmtPct(t.edge)}</td>
+        <td>${fmtUsd(t.size_usd)}</td>
+        <td>${fmtUsd(t.expected_value_usd)}</td>
+        <td>${t.target_date || '—'}</td>
+      </tr>
+    `).join('');
+    document.getElementById('openWrap').innerHTML = `
+      <table><thead><tr>
+        <th>Market</th><th>Side</th><th>Entry</th><th>Model p</th>
+        <th>Edge</th><th>Size</th><th>Exp. P&L</th><th>Resolves</th>
+      </tr></thead><tbody>${rows}</tbody></table>`;
+  }
+
+  // Markets scanned
+  const mkts = data.markets_scanned || [];
+  if (mkts.length === 0) {
+    document.getElementById('marketsWrap').innerHTML =
+      '<div class="empty">No weather markets fetched yet.</div>';
+  } else {
+    let rows = mkts.slice(0, 30).map(m => `
+      <tr>
+        <td class="q" title="${m.question}">${m.question}</td>
+        <td><span class="badge">${m.city || 'n/a'}</span></td>
+        <td>${m.metric || '—'}</td>
+        <td>${m.yes_price ? (m.yes_price*100).toFixed(1)+'¢' : '—'}</td>
+        <td>${m.no_price ?  (m.no_price*100).toFixed(1)+'¢' : '—'}</td>
+        <td>${fmtUsd(m.volume || 0)}</td>
+        <td>${m.target_date || (m.end_date_iso || '').slice(0,10) || '—'}</td>
+      </tr>
+    `).join('');
+    document.getElementById('marketsWrap').innerHTML = `
+      <table><thead><tr>
+        <th>Market</th><th>City</th><th>Metric</th>
+        <th>Yes</th><th>No</th><th>Vol</th><th>Ends</th>
+      </tr></thead><tbody>${rows}</tbody></table>`;
+  }
+
+  // Recent settlements
+  const set = data.recent_settled || [];
+  if (set.length === 0) {
+    document.getElementById('settledWrap').innerHTML =
+      '<div class="empty">No settlements yet.</div>';
+  } else {
+    let rows = set.slice().reverse().map(t => `
+      <tr>
+        <td class="q">${t.question}</td>
+        <td><span class="side-${t.side.toLowerCase()}">${t.side}</span></td>
+        <td>${(t.entry_price*100).toFixed(1)}¢</td>
+        <td>${fmtUsd(t.size_usd)}</td>
+        <td class="${t.pnl_usd >= 0 ? 'edge-big' : ''}">${fmtUsd(t.pnl_usd)}</td>
+        <td>${t.status.replace('SETTLED_','')}</td>
+      </tr>
+    `).join('');
+    document.getElementById('settledWrap').innerHTML = `
+      <table><thead><tr>
+        <th>Market</th><th>Side</th><th>Entry</th><th>Size</th>
+        <th>P&L</th><th>Outcome</th>
+      </tr></thead><tbody>${rows}</tbody></table>`;
+  }
+}
+
+tick();
+setInterval(tick, REFRESH_MS);
+</script>
+</body>
+</html>
