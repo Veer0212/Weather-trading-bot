@@ -23,6 +23,7 @@ import logging
 import signal
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -31,6 +32,10 @@ from strategy import (
     TradeLog, evaluate_market,
     MIN_EDGE, MIN_VOLUME, MAX_DAYS_AHEAD,
 )
+
+# Cap per-cycle market evaluations so a single hourly run always finishes.
+MAX_MARKETS_PER_CYCLE = 60
+FORECAST_WORKERS      = 8
 
 log = logging.getLogger("run")
 
@@ -55,31 +60,61 @@ def one_cycle(ledger: TradeLog, bankroll_usd: float) -> None:
         return
 
     log.info("fetched %d candidate weather markets", len(markets))
+
+    # Cap per cycle: prioritize markets with the most volume so we always
+    # finish inside the Actions timeout. Unconsidered markets roll to next cycle.
+    if len(markets) > MAX_MARKETS_PER_CYCLE:
+        markets.sort(key=lambda s: s.volume or 0, reverse=True)
+        markets = markets[:MAX_MARKETS_PER_CYCLE]
+        log.info("capped to top %d markets by volume", MAX_MARKETS_PER_CYCLE)
+
     open_exposure = ledger.total_open_exposure()
 
-    considered = 0
+    # Filter out markets we've already traded.
+    to_eval = [
+        s for s in markets
+        if not ledger.already_open(s.market_id, "YES")
+        and not ledger.already_open(s.market_id, "NO")
+    ]
+    log.info("evaluating %d markets with %d workers",
+             len(to_eval), FORECAST_WORKERS)
+
+    # Evaluate in parallel. Each worker does its own HTTP calls so they stack.
+    # We DO NOT update exposure inside the pool; we do the sizing-pass once
+    # all results are back, sequentially, so the exposure cap is respected.
+    trade_results: list = []
+    t0 = time.time()
+    with ThreadPoolExecutor(max_workers=FORECAST_WORKERS) as ex:
+        futures = {
+            ex.submit(evaluate_market, snap, bankroll_usd, open_exposure): snap
+            for snap in to_eval
+        }
+        for fut in as_completed(futures):
+            snap = futures[fut]
+            try:
+                tr = fut.result()
+            except Exception as e:
+                log.debug("evaluate_market error on %s: %s", snap.slug, e)
+                continue
+            if tr is not None:
+                trade_results.append(tr)
+    log.info("parallel evaluation finished in %.1fs, %d candidate trades",
+             time.time() - t0, len(trade_results))
+
+    # Sort candidates by edge desc so best opportunities get funded first.
+    trade_results.sort(key=lambda t: t.edge, reverse=True)
+
     trades_opened = 0
-    for snap in markets:
-        if ledger.already_open(snap.market_id, "YES") or \
-           ledger.already_open(snap.market_id, "NO"):
-            continue
-        considered += 1
-        try:
-            tr = evaluate_market(snap, bankroll_usd, open_exposure)
-        except Exception as e:
-            log.debug("evaluate_market error on %s: %s", snap.slug, e)
-            continue
-        if tr is None:
-            continue
+    for tr in trade_results:
+        if open_exposure + tr.size_usd > bankroll_usd * 0.60:
+            log.info("exposure cap reached, stopping further entries")
+            break
         ledger.record(tr)
         open_exposure += tr.size_usd
         trades_opened += 1
-        if open_exposure >= bankroll_usd * 0.60:
-            log.info("hit 60%% exposure cap, stopping further entries this cycle")
-            break
 
     log.info("considered %d · opened %d · open exposure $%.2f",
-             considered, trades_opened, open_exposure)
+             len(to_eval), trades_opened, open_exposure)
 
     ledger.snapshot_for_dashboard(
         bankroll_usd=bankroll_usd,
