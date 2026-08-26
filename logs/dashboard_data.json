@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T07:01:34.050187+00:00",
+  "generated_at": "2026-08-26T07:52:53.022602+00:00",
   "bankroll_usd": 1000.0,
   "open_exposure_usd": 600.0,
   "realized_pnl_usd": 0,
@@ -543,7 +543,7 @@
             "openInterest": 645396.638796,
             "sortBy": "ascending",
             "createdAt": "2026-05-12T19:16:21.938553Z",
-            "updatedAt": "2026-08-26T06:46:22.348132Z",
+            "updatedAt": "2026-08-26T07:46:20.7474Z",
             "competitive": 0.9987764987889834,
             "volume24hr": 47987.477509000004,
             "volume1wk": 168971.403672,
@@ -567,9 +567,9 @@
             "deploying": false,
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Recent diplomatic activity centers on a one-page proposal developed by Ukrainian, US, and European officials and disclosed by President Zelenskyy in late August 2026. It outlines an immediate ceasefire along the line of contact, mutual troop withdrawals, and third-party administration of a free economic zone in Donbas, paired with NATO or EU security guarantees to deter future aggression. These efforts follow earlier trilateral meetings in Abu Dhabi and Geneva that produced only prisoner exchanges and stalled after February amid US priorities elsewhere. Russian positions continue to emphasize territorial control in Donetsk, while Ukrainian statements stress binding postwar protections. Upcoming US-Russia contacts and any response from Moscow to the new framework represent the clearest near-term catalysts that could shift prospects for a formal agreement.",
+              "context_description": "Ukraine and the US have advanced new proposals for a ceasefire and related measures, including a potential air truce and third-party economic zone in Donbas, with President Zelensky outlining a diplomatic window from the December 2026 G20 summit onward. Russia has signaled openness to fresh ideas aligned with its stated goals but continues to reject any freeze along current lines, reiterating demands for Ukrainian territorial concessions in Donetsk, Luhansk, Kherson, and Zaporizhzhia plus resolution of broader security issues. Earlier 2026 trilateral talks in Abu Dhabi and Geneva produced only prisoner exchanges without breakthroughs on core disputes. Ongoing frontline fighting and mutual long-range strikes persist, while scheduled events such as potential US envoy visits and European security discussions remain key variables that could shift prospects for any near-term agreement.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:46:22.185Z"
+              "context_updated_at": "2026-08-26T07:46:20.581Z"
             },
             "version": "v1"
           }
@@ -880,7 +880,7 @@
             "openInterest": 7164.997904,
             "sortBy": "ascending",
             "createdAt": "2026-06-05T21:50:24.067921Z",
-            "updatedAt": "2026-08-26T06:14:05.227434Z",
+            "updatedAt": "2026-08-26T07:31:58.088201Z",
             "competitive": 0.856091088091773,
             "volume24hr": 5354.95,
             "volume1wk": 5625.94,
@@ -900,9 +900,9 @@
             "deploying": false,
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Russian forces captured and consolidated control over Hryshyne, a village northwest of Pokrovsk in Donetsk Oblast, through sustained small-group infantry infiltrations and incremental assaults earlier in 2026.** Ukrainian units from the 155th Mechanized Brigade and 7th Air Assault Corps conducted clearing operations and claimed to hold central and northern sectors amid heavy drone strikes and close-quarters fighting through March and April, but Russian pressure from Pokrovsk and surrounding axes prevented full Ukrainian re-entry. \n\nAs of August 2026, the front remains fluid in the Pokrovsk direction with ongoing Russian infiltration attempts, while Ukraine\u2019s main counteroffensive gains have occurred in the separate Oleksandrivka sector, liberating dozens of other settlements. Low trader probabilities for Ukrainian re-entry by near-term dates reflect the attritional nature of the fighting, Russian logistics in the area, and the absence of a concentrated Ukrainian offensive toward Hryshyne itself. Resolution depends on ISW map updates confirming any Ukrainian territorial control within the village boundaries.",
+              "context_description": "Ukraine faces entrenched Russian positions and ongoing infiltration attempts around Hryshyne, a key village on the Pokrovsk axis in Donetsk Oblast, limiting prospects for a rapid recapture. Russian forces have built drone launch sites and logistics networks in the area while pressing small infantry groups and assault teams, even as Ukrainian units from the 7th Airborne Corps and 155th Brigade conduct clearing operations and hold parts of the center and northern outskirts. Broader Ukrainian counteroffensives have delivered gains elsewhere, such as near Oleksandrivka and Dvorichna, but resources remain focused on defense and attrition rather than a concentrated push to retake Hryshyne. Traders price the low probability of any Ukrainian territorial re-entry by late September 2026 on this sustained Russian pressure and the absence of imminent Ukrainian offensive momentum in the sector.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T04:32:11.180Z"
+              "context_updated_at": "2026-08-26T07:31:57.923Z"
             },
             "version": "v1"
           }
@@ -1049,7 +1049,7 @@
             "volume": 70896.815717,
             "openInterest": 38998.617103000004,
             "createdAt": "2026-08-24T04:56:49.618342Z",
-            "updatedAt": "2026-08-26T06:47:25.324889Z",
+            "updatedAt": "2026-08-26T07:47:18.282659Z",
             "competitive": 0.9919650828290844,
             "volume24hr": 61938.066166,
             "volume1wk": 70387.85191699999,
@@ -1078,7 +1078,7 @@
                 "volume24hr": 94864.320229,
                 "volume": 75960.512048,
                 "liquidity": 120153.31872,
-                "commentCount": 2664,
+                "commentCount": 2690,
                 "requiresTranslation": false
               }
             ],
@@ -1096,9 +1096,9 @@
             "deployingTimestamp": "2026-08-24T04:56:51.856937Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Official Hong Kong Observatory forecasts for August 26, 2026, indicate a daily maximum of 31\u00b0C under mostly cloudy skies with intermittent showers and thunderstorms, driven by a moist southerly flow and peripheral effects from regional tropical systems.** Current observations show temperatures reaching 30\u201331.5\u00b0C at exposed stations like Chek Lap Kok by early afternoon, while urban and sheltered sites remain in the upper 20s amid high humidity (75\u201395%) and frequent rain. This unsettled pattern, including gusty winds and significant rainfall probability, limits further warming compared to drier historical August maxima. Market-implied probabilities heavily favor 30\u201331\u00b0C outcomes because trader assessments align with these authoritative model runs and real-time station data, which show little chance of exceeding 32\u00b0C or falling below 29\u00b0C under the prevailing conditions.",
-              "context_requires_regen": true,
-              "context_updated_at": "2026-08-26T06:46:58.300Z"
+              "context_description": "**Cloudy conditions with frequent showers and squally thunderstorms from an active southerly airstream are capping daytime heating in Hong Kong on August 26, 2026.** The Hong Kong Observatory forecasts a maximum near 31\u00b0C, consistent with late-August climatological normals of 31\u201332\u00b0C, but heavy rain and high humidity (75\u201395%) have limited observed highs to the 29\u201331\u00b0C range at key stations through the afternoon. This supports the market\u2019s emphasis on 30\u00b0C (59%) over 31\u00b0C (25.5%), as precipitation timing and intensity introduce uncertainty in whether the official daily maximum will reach or exceed the forecast. Regional data show minimal model divergence, with the main variables being localized rainfall rates and wind strength offshore. Resolution hinges on the final HKO reading at the end of the calendar day.",
+              "context_requires_regen": false,
+              "context_updated_at": "2026-08-26T07:47:18.115Z"
             },
             "version": "v1"
           }
@@ -1240,7 +1240,7 @@
             "volume": 47992.068616000004,
             "openInterest": 28035.515224000006,
             "createdAt": "2026-08-24T00:57:12.49923Z",
-            "updatedAt": "2026-08-26T06:14:05.227434Z",
+            "updatedAt": "2026-08-26T07:47:16.231044Z",
             "competitive": 0.8003199679231757,
             "volume24hr": 28945.330708,
             "volume1wk": 47300.086616,
@@ -1287,9 +1287,9 @@
             "deployingTimestamp": "2026-08-24T00:57:16.395534Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Official observations from National Weather Service stations across Los Angeles recorded a daily maximum of 84-85\u00b0F on August 25, 2026, matching the market's 100% consensus on that bin. Late-summer conditions featured a persistent marine layer that capped coastal highs while allowing modest inland warming under clear skies and light onshore flow, consistent with climatological norms of 80-85\u00b0F for the date. Post-event verification finalized the reading with negligible remaining uncertainty, driving the near-certain trader positioning. Only an unlikely official data revision or a narrow dispute over the precise 24-hour reporting window could alter resolution, though such changes rarely affect verified urban temperature records.",
+              "context_description": "**Official National Weather Service observations at Los Angeles International Airport recorded a maximum temperature of 85\u00b0F on August 25, 2026, driving the near-certain market consensus on the 84-85\u00b0F bin.**  \n\nA strong regional heat wave pushed inland valleys above 100\u00b0F and downtown Los Angeles to around 99\u00b0F, yet persistent onshore flow and the marine layer kept the coastal LAX station several degrees cooler than surrounding areas. This outcome aligns with historical August norms for the airport site and recent model guidance that anticipated modest coastal moderation amid the broader high-pressure pattern.  \n\nRealistic challenges to this resolution would require the market to use a non-LAX station or revised preliminary data, though current NWS reports show no such discrepancy.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T05:47:05.638Z"
+              "context_updated_at": "2026-08-26T07:47:16.072Z"
             },
             "version": "v1"
           }
@@ -1430,7 +1430,7 @@
             "volume": 61431.024092,
             "openInterest": 22343.093763000004,
             "createdAt": "2026-08-24T04:56:30.220095Z",
-            "updatedAt": "2026-08-26T06:48:40.364201Z",
+            "updatedAt": "2026-08-26T07:49:23.499834Z",
             "competitive": 0.8025579125789717,
             "volume24hr": 36327.865753000005,
             "volume1wk": 59552.785912,
@@ -1477,9 +1477,9 @@
             "deployingTimestamp": "2026-08-24T04:56:32.286508Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Forecast consensus from MetService New Zealand and global models points to a daily maximum of 13\u201315\u00b0C for Wellington on 26 August 2026, driven by a strong northwesterly flow that has advected milder air over the region.** Current observations at midday show temperatures near 13\u201315\u00b0C under cloudy skies with gusty NW winds, consistent with the seasonal baseline of roughly 12\u00b0C for late August but elevated by the wind regime.\n\nThis positioning favors the 16\u00b0C outcome (68% implied probability) as the most likely peak, with 17\u00b0C (27%) remaining plausible if northerlies persist longer than expected or if local heating exceeds model guidance. Lower outcomes below 15\u00b0C carry minimal probability because recent model runs have shown limited cooling from increasing cloud cover and only a slight chance of showers late in the day. Historical analogs for similar synoptic setups in late winter rarely exceed 17\u00b0C, reinforcing the tight clustering around 16\u00b0C.\n\nUpcoming resolution will hinge on official MetService or NIWA station readings for the calendar-day maximum, with any late-day southerly shift potentially capping the high. Traders are weighting the current mild advection heavily against the climatological cool season norm.",
+              "context_description": "Forecast models from agencies including MetService and international ensembles indicate a daily maximum near 16\u00b0C in Wellington on August 26, driven by persistent northwesterly flow advecting milder maritime air ahead of an approaching trough. This setup has produced above-average temperatures for late winter, with observed readings climbing into the mid-teens Celsius under mostly cloudy skies and gusty winds exceeding 40 km/h. Ensemble spreads remain narrow, favoring 15\u201317\u00b0C outcomes while cooler scenarios require stronger southerly change or greater cloud cover than currently projected. Traders have assigned the bulk of probability to 16\u00b0C and 17\u00b0C because these align with the latest model consensus and historical analogs for similar synoptic patterns, though final station observations from Wellington International Airport will determine resolution.",
               "context_requires_regen": true,
-              "context_updated_at": "2026-08-26T06:47:11.225Z"
+              "context_updated_at": "2026-08-26T07:47:19.665Z"
             },
             "version": "v1"
           }
@@ -1618,7 +1618,7 @@
             "volume": 70896.815717,
             "openInterest": 38998.617103000004,
             "createdAt": "2026-08-24T04:56:49.618342Z",
-            "updatedAt": "2026-08-26T06:47:25.324889Z",
+            "updatedAt": "2026-08-26T07:47:18.282659Z",
             "competitive": 0.9919650828290844,
             "volume24hr": 61938.066166,
             "volume1wk": 70387.85191699999,
@@ -1647,7 +1647,7 @@
                 "volume24hr": 94864.320229,
                 "volume": 75960.512048,
                 "liquidity": 120153.31872,
-                "commentCount": 2664,
+                "commentCount": 2690,
                 "requiresTranslation": false
               }
             ],
@@ -1665,9 +1665,9 @@
             "deployingTimestamp": "2026-08-24T04:56:51.856937Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Official Hong Kong Observatory forecasts for August 26, 2026, indicate a daily maximum of 31\u00b0C under mostly cloudy skies with intermittent showers and thunderstorms, driven by a moist southerly flow and peripheral effects from regional tropical systems.** Current observations show temperatures reaching 30\u201331.5\u00b0C at exposed stations like Chek Lap Kok by early afternoon, while urban and sheltered sites remain in the upper 20s amid high humidity (75\u201395%) and frequent rain. This unsettled pattern, including gusty winds and significant rainfall probability, limits further warming compared to drier historical August maxima. Market-implied probabilities heavily favor 30\u201331\u00b0C outcomes because trader assessments align with these authoritative model runs and real-time station data, which show little chance of exceeding 32\u00b0C or falling below 29\u00b0C under the prevailing conditions.",
-              "context_requires_regen": true,
-              "context_updated_at": "2026-08-26T06:46:58.300Z"
+              "context_description": "**Cloudy conditions with frequent showers and squally thunderstorms from an active southerly airstream are capping daytime heating in Hong Kong on August 26, 2026.** The Hong Kong Observatory forecasts a maximum near 31\u00b0C, consistent with late-August climatological normals of 31\u201332\u00b0C, but heavy rain and high humidity (75\u201395%) have limited observed highs to the 29\u201331\u00b0C range at key stations through the afternoon. This supports the market\u2019s emphasis on 30\u00b0C (59%) over 31\u00b0C (25.5%), as precipitation timing and intensity introduce uncertainty in whether the official daily maximum will reach or exceed the forecast. Regional data show minimal model divergence, with the main variables being localized rainfall rates and wind strength offshore. Resolution hinges on the final HKO reading at the end of the calendar day.",
+              "context_requires_regen": false,
+              "context_updated_at": "2026-08-26T07:47:18.115Z"
             },
             "version": "v1"
           }
@@ -1820,7 +1820,7 @@
             "volume": 46539.569276999995,
             "openInterest": 26766.798591,
             "createdAt": "2026-08-24T00:57:19.695936Z",
-            "updatedAt": "2026-08-26T06:17:14.405203Z",
+            "updatedAt": "2026-08-26T07:02:31.575526Z",
             "competitive": 0.8003199679231757,
             "volume24hr": 34189.434966,
             "volume1wk": 45097.691901,
@@ -1867,9 +1867,9 @@
             "deployingTimestamp": "2026-08-24T00:57:26.809222Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Official National Weather Service observations recorded a daily maximum of 66\u00b0F downtown San Francisco on August 25, 2026, at 2:43 p.m. local time, matching the market's 66-67\u00b0F outcome at essentially 100% implied probability.** Airport data showed a slightly higher 68\u00b0F peak, but the resolution criteria align with the downtown reading. Persistent marine layer and morning fog, followed by high clouds and a strong sea breeze, suppressed inland heat transport and kept coastal temperatures several degrees below the 1991\u20132020 normal of roughly 69\u201374\u00b0F. No significant warming event or model shift occurred to push readings into the 70s. The only realistic challenge would be a post-event revision in the official climatological report or an unexpected measurement discrepancy at the designated station, both of which are rare once preliminary data are confirmed.",
+              "context_description": "**Official observations from the National Weather Service at San Francisco International Airport recorded a daily maximum of 68\u00b0F on August 25, 2026, aligning closely with the market's dominant 66-67\u00b0F outcome at 100% implied probability.** Persistent marine layer and onshore flow from the Pacific suppressed temperatures along the immediate coast, limiting afternoon warming despite a modest high-pressure influence that allowed some clearing. This kept readings in the mid-to-upper 60s across much of the city, consistent with climatological norms for late August under typical stratus and breeze conditions. With resolution imminent based on verified station data, traders priced in the narrow band reflecting the observed peak. Only an unexpected revision to the official maximum or use of an atypical microclimate station could realistically alter the outcome at this stage.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:17:14.245Z"
+              "context_updated_at": "2026-08-26T07:02:31.411Z"
             },
             "version": "v1"
           }
@@ -2168,7 +2168,7 @@
             "volume": 70896.815717,
             "openInterest": 38998.617103000004,
             "createdAt": "2026-08-24T04:56:49.618342Z",
-            "updatedAt": "2026-08-26T06:47:25.324889Z",
+            "updatedAt": "2026-08-26T07:47:18.282659Z",
             "competitive": 0.9919650828290844,
             "volume24hr": 61938.066166,
             "volume1wk": 70387.85191699999,
@@ -2197,7 +2197,7 @@
                 "volume24hr": 94864.320229,
                 "volume": 75960.512048,
                 "liquidity": 120153.31872,
-                "commentCount": 2664,
+                "commentCount": 2690,
                 "requiresTranslation": false
               }
             ],
@@ -2215,9 +2215,9 @@
             "deployingTimestamp": "2026-08-24T04:56:51.856937Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Official Hong Kong Observatory forecasts for August 26, 2026, indicate a daily maximum of 31\u00b0C under mostly cloudy skies with intermittent showers and thunderstorms, driven by a moist southerly flow and peripheral effects from regional tropical systems.** Current observations show temperatures reaching 30\u201331.5\u00b0C at exposed stations like Chek Lap Kok by early afternoon, while urban and sheltered sites remain in the upper 20s amid high humidity (75\u201395%) and frequent rain. This unsettled pattern, including gusty winds and significant rainfall probability, limits further warming compared to drier historical August maxima. Market-implied probabilities heavily favor 30\u201331\u00b0C outcomes because trader assessments align with these authoritative model runs and real-time station data, which show little chance of exceeding 32\u00b0C or falling below 29\u00b0C under the prevailing conditions.",
-              "context_requires_regen": true,
-              "context_updated_at": "2026-08-26T06:46:58.300Z"
+              "context_description": "**Cloudy conditions with frequent showers and squally thunderstorms from an active southerly airstream are capping daytime heating in Hong Kong on August 26, 2026.** The Hong Kong Observatory forecasts a maximum near 31\u00b0C, consistent with late-August climatological normals of 31\u201332\u00b0C, but heavy rain and high humidity (75\u201395%) have limited observed highs to the 29\u201331\u00b0C range at key stations through the afternoon. This supports the market\u2019s emphasis on 30\u00b0C (59%) over 31\u00b0C (25.5%), as precipitation timing and intensity introduce uncertainty in whether the official daily maximum will reach or exceed the forecast. Regional data show minimal model divergence, with the main variables being localized rainfall rates and wind strength offshore. Resolution hinges on the final HKO reading at the end of the calendar day.",
+              "context_requires_regen": false,
+              "context_updated_at": "2026-08-26T07:47:18.115Z"
             },
             "version": "v1"
           }
@@ -2358,7 +2358,7 @@
             "volume": 53092.00667999999,
             "openInterest": 19380.873168000002,
             "createdAt": "2026-08-24T04:56:57.374033Z",
-            "updatedAt": "2026-08-26T06:51:55.860042Z",
+            "updatedAt": "2026-08-26T07:47:18.301127Z",
             "competitive": 0.9969841230278408,
             "volume24hr": 45459.565019,
             "volume1wk": 53102.00668,
@@ -2387,7 +2387,7 @@
                 "volume24hr": 63806.823736,
                 "volume": 61932.762578999995,
                 "liquidity": 109554.35885,
-                "commentCount": 982,
+                "commentCount": 984,
                 "requiresTranslation": false
               }
             ],
@@ -2405,9 +2405,9 @@
             "deployingTimestamp": "2026-08-24T04:56:59.562648Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Trader consensus on 31\u201332\u00b0C as the highest temperature in Singapore today reflects active southwest monsoon conditions, with southeasterly winds and widespread afternoon thundery showers limiting daytime heating. Official forecasts from the Meteorological Service Singapore and global models indicate a daily maximum near 30\u201332\u00b0C under partly cloudy skies, consistent with recent observations around 29\u201331\u00b0C at Changi and other stations amid 70\u201385% humidity and scattered rainfall. Earlier August days reached 33\u201334\u00b0C under drier spells, but persistent convective activity today suppresses peaks above 32\u00b0C, aligning with the market\u2019s heavy weighting toward these two outcomes and minimal odds on extremes. Updated model runs through evening will refine the exact maximum before resolution.",
-              "context_requires_regen": true,
-              "context_updated_at": "2026-08-26T06:47:10.859Z"
+              "context_description": "**Trader consensus heavily favors 31\u00b0C (55.5%) or 32\u00b0C (41.0%) as the highest temperature in Singapore on August 26, 2026, reflecting current forecast consensus and typical monsoon dynamics.**\n\nSingapore lies in a tropical rainforest climate near the equator, where August falls under the Southwest Monsoon. This brings southeasterly or southwesterly winds, localized afternoon thundery showers, and variable cloud cover that often caps daytime maxima. Official Meteorological Service Singapore (MSS) and National Environment Agency data show an August long-term average daily maximum of 31.4\u00b0C, with recent fortnightly outlooks projecting 33\u201334\u00b0C on most days but noting suppression from showers. \n\nOn August 26 specifically, multiple model runs and station observations indicate partly cloudy conditions with an 80% chance of storms, currently yielding afternoon readings near 29\u201330\u00b0C (85\u201387\u00b0F) and keeping the daily peak in the low-30s. Persistent rain and humidity reduce solar heating compared to clearer periods earlier in the month, when maxima reached 34\u00b0C+. Higher outcomes (33\u00b0C+) carry negligible implied probability because active convection and cloud cover are expected to prevent strong afternoon warming. \n\nUpcoming official readings from Changi and other stations will resolve the market; traders are weighting real-time model guidance and monsoon rainfall patterns that favor the 31\u201332\u00b0C range.",
+              "context_requires_regen": false,
+              "context_updated_at": "2026-08-26T07:47:18.114Z"
             },
             "version": "v1"
           }
@@ -2549,7 +2549,7 @@
             "openInterest": 8913.892039000002,
             "sortBy": "price",
             "createdAt": "2026-07-29T22:58:50.922237Z",
-            "updatedAt": "2026-08-26T06:31:44.443874Z",
+            "updatedAt": "2026-08-26T07:49:16.855643Z",
             "competitive": 0.9944064636420137,
             "volume24hr": 720.421127,
             "volume1wk": 3541.201098,
@@ -2573,7 +2573,7 @@
             "requiresTranslation": false,
             "eventMetadata": {
               "context_description": "Recent European diplomatic engagement has shaped trader views on likely visitors to Ukraine by year-end. Multiple leaders including UK Prime Minister Andy Burnham, European Council President Ant\u00f3nio Costa, and officials from Nordic-Baltic states, Luxembourg, and Moldova traveled to Kyiv in late August 2026 for Independence Day events and the Coalition of the Willing coordination meeting, delivering pledges of military and financial support amid the ongoing Russian invasion. These visits align with sustained EU-level involvement in defense coordination and accession-related talks. In contrast, the absence of senior U.S. administration figures despite prior speculation has contributed to lower implied probabilities for American officials. Scheduled EU summits, bilateral announcements, and continued war-related diplomacy through December could still prompt additional high-level arrivals before resolution.",
-              "context_requires_regen": false,
+              "context_requires_regen": true,
               "context_updated_at": "2026-08-26T06:31:44.279Z"
             },
             "version": "v1"
@@ -2725,7 +2725,7 @@
             "volume": 51448.197566,
             "openInterest": 39233.461467,
             "createdAt": "2026-08-24T04:58:38.376177Z",
-            "updatedAt": "2026-08-26T06:50:41.098939Z",
+            "updatedAt": "2026-08-26T07:48:00.470049Z",
             "competitive": 0.9991008092716555,
             "volume24hr": 47263.334553,
             "volume1wk": 51448.197565999995,
@@ -2772,9 +2772,9 @@
             "deployingTimestamp": "2026-08-24T04:58:40.341662Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Current trader consensus on the Kuala Lumpur daily maximum leans toward 31\u00b0C (47% implied probability) over 32\u00b0C (37.5%), reflecting model consensus for a peak near 30\u201332\u00b0C amid widespread afternoon convection.** Equatorial August conditions feature high humidity, light southerly winds, and frequent thunderstorm development tied to the Intertropical Convergence Zone, which typically caps afternoon temperatures through cloud shading and evaporative cooling. Recent strengthening El Ni\u00f1o conditions have elevated regional baselines, yet today\u2019s overcast skies and 70\u201380% rain chances\u2014per multiple forecasts\u2014limit radiative heating and favor the lower of the two leading outcomes. Official resolution will hinge on the highest instantaneous reading at primary stations before evening cooling, with any delayed storm timing potentially shifting the result by 1\u00b0C.",
+              "context_description": "Forecast models from agencies including METMalaysia and international ensembles point to a daily maximum of 31\u201332\u00b0C in Kuala Lumpur today, driven by persistent cloud cover and scattered afternoon thunderstorms that reduce solar heating during peak insolation hours. High humidity near 70\u201390% and light southerly winds further moderate surface temperatures while elevating heat indices. Historical August maxima average around 33\u00b0C, yet current steering patterns and moisture favor convection that caps readings below seasonal peaks, creating tight odds between the leading outcomes. Updated model runs and official METAR observations through midday will clarify whether brief clear spells allow a 32\u00b0C spike or sustained rain keeps it at 31\u00b0C.",
               "context_requires_regen": true,
-              "context_updated_at": "2026-08-26T06:47:12.873Z"
+              "context_updated_at": "2026-08-26T07:47:19.245Z"
             },
             "version": "v1"
           }
@@ -2915,7 +2915,7 @@
             "volume": 47992.068616000004,
             "openInterest": 28035.515224000006,
             "createdAt": "2026-08-24T00:57:12.49923Z",
-            "updatedAt": "2026-08-26T06:14:05.227434Z",
+            "updatedAt": "2026-08-26T07:47:16.231044Z",
             "competitive": 0.8003199679231757,
             "volume24hr": 28945.330708,
             "volume1wk": 47300.086616,
@@ -2962,9 +2962,9 @@
             "deployingTimestamp": "2026-08-24T00:57:16.395534Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Official observations from National Weather Service stations across Los Angeles recorded a daily maximum of 84-85\u00b0F on August 25, 2026, matching the market's 100% consensus on that bin. Late-summer conditions featured a persistent marine layer that capped coastal highs while allowing modest inland warming under clear skies and light onshore flow, consistent with climatological norms of 80-85\u00b0F for the date. Post-event verification finalized the reading with negligible remaining uncertainty, driving the near-certain trader positioning. Only an unlikely official data revision or a narrow dispute over the precise 24-hour reporting window could alter resolution, though such changes rarely affect verified urban temperature records.",
+              "context_description": "**Official National Weather Service observations at Los Angeles International Airport recorded a maximum temperature of 85\u00b0F on August 25, 2026, driving the near-certain market consensus on the 84-85\u00b0F bin.**  \n\nA strong regional heat wave pushed inland valleys above 100\u00b0F and downtown Los Angeles to around 99\u00b0F, yet persistent onshore flow and the marine layer kept the coastal LAX station several degrees cooler than surrounding areas. This outcome aligns with historical August norms for the airport site and recent model guidance that anticipated modest coastal moderation amid the broader high-pressure pattern.  \n\nRealistic challenges to this resolution would require the market to use a non-LAX station or revised preliminary data, though current NWS reports show no such discrepancy.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T05:47:05.638Z"
+              "context_updated_at": "2026-08-26T07:47:16.072Z"
             },
             "version": "v1"
           }
@@ -3103,7 +3103,7 @@
             "openInterest": 8913.892039000002,
             "sortBy": "price",
             "createdAt": "2026-07-29T22:58:50.922237Z",
-            "updatedAt": "2026-08-26T06:31:44.443874Z",
+            "updatedAt": "2026-08-26T07:49:16.855643Z",
             "competitive": 0.9944064636420137,
             "volume24hr": 720.421127,
             "volume1wk": 3541.201098,
@@ -3127,7 +3127,7 @@
             "requiresTranslation": false,
             "eventMetadata": {
               "context_description": "Recent European diplomatic engagement has shaped trader views on likely visitors to Ukraine by year-end. Multiple leaders including UK Prime Minister Andy Burnham, European Council President Ant\u00f3nio Costa, and officials from Nordic-Baltic states, Luxembourg, and Moldova traveled to Kyiv in late August 2026 for Independence Day events and the Coalition of the Willing coordination meeting, delivering pledges of military and financial support amid the ongoing Russian invasion. These visits align with sustained EU-level involvement in defense coordination and accession-related talks. In contrast, the absence of senior U.S. administration figures despite prior speculation has contributed to lower implied probabilities for American officials. Scheduled EU summits, bilateral announcements, and continued war-related diplomacy through December could still prompt additional high-level arrivals before resolution.",
-              "context_requires_regen": false,
+              "context_requires_regen": true,
               "context_updated_at": "2026-08-26T06:31:44.279Z"
             },
             "version": "v1"
@@ -3279,7 +3279,7 @@
             "volume": 36797.408981,
             "openInterest": 21349.787449999996,
             "createdAt": "2026-08-24T04:57:56.173323Z",
-            "updatedAt": "2026-08-26T06:57:02.69226Z",
+            "updatedAt": "2026-08-26T07:32:23.367761Z",
             "competitive": 0.9779951100244499,
             "volume24hr": 31782.949037,
             "volume1wk": 36807.408981,
@@ -3326,9 +3326,9 @@
             "deployingTimestamp": "2026-08-24T04:57:59.201768Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Cloud cover and frequent showers from the East Asian monsoon trough are capping solar insolation and holding the daily maximum near 30\u201331 \u00b0C.** Multiple forecast runs from the China Meteorological Administration and international models converge on a high of 30\u201331 \u00b0C under overcast skies and scattered to heavy rain, with only brief breaks allowing limited afternoon warming. Historical August climatology shows a mean daily high near 32 \u00b0C, but the current pattern of high humidity (80\u201395 %) and persistent precipitation has repeatedly suppressed peaks to 30\u201331 \u00b0C in recent days. The tight clustering of market-implied probabilities on 30 \u00b0C (38 %) and 31 \u00b0C (35 %) reflects this model consensus and the narrow range of plausible outcomes once rain-cooled boundary-layer air and reduced insolation are accounted for. Resolution will depend on the official Shenzhen station observation for the calendar day.",
-              "context_requires_regen": true,
-              "context_updated_at": "2026-08-26T06:32:12.014Z"
+              "context_description": "**Current forecasts for Shenzhen point to a daytime high near 30\u201332\u00b0C amid frequent cloud cover, scattered thunderstorms, and light to moderate rain, which limits solar heating and explains why traders heavily favor 30\u00b0C or 31\u00b0C.** \n\nShenzhen\u2019s subtropical monsoon climate features high humidity (often 70\u201390%) and southerly winds that normally support warm, muggy conditions, but today\u2019s active convection and precipitation\u2014consistent with official meteorological guidance\u2014have suppressed peak temperatures by reflecting sunlight and enhancing evaporative cooling. Afternoon readings hovering around 30\u201331\u00b0C in live reports, combined with model consensus on modest intensification before evening showers, create the narrow spread between the top two outcomes. Slight differences in rain timing, cloud thickness, or localized urban heat retention could tip the final maximum either way, which is why probabilities remain closely matched rather than heavily skewed.",
+              "context_requires_regen": false,
+              "context_updated_at": "2026-08-26T07:32:23.212Z"
             },
             "version": "v1"
           }
@@ -3478,7 +3478,7 @@
             "openInterest": 8913.892039000002,
             "sortBy": "price",
             "createdAt": "2026-07-29T22:58:50.922237Z",
-            "updatedAt": "2026-08-26T06:31:44.443874Z",
+            "updatedAt": "2026-08-26T07:49:16.855643Z",
             "competitive": 0.9944064636420137,
             "volume24hr": 720.421127,
             "volume1wk": 3541.201098,
@@ -3502,7 +3502,7 @@
             "requiresTranslation": false,
             "eventMetadata": {
               "context_description": "Recent European diplomatic engagement has shaped trader views on likely visitors to Ukraine by year-end. Multiple leaders including UK Prime Minister Andy Burnham, European Council President Ant\u00f3nio Costa, and officials from Nordic-Baltic states, Luxembourg, and Moldova traveled to Kyiv in late August 2026 for Independence Day events and the Coalition of the Willing coordination meeting, delivering pledges of military and financial support amid the ongoing Russian invasion. These visits align with sustained EU-level involvement in defense coordination and accession-related talks. In contrast, the absence of senior U.S. administration figures despite prior speculation has contributed to lower implied probabilities for American officials. Scheduled EU summits, bilateral announcements, and continued war-related diplomacy through December could still prompt additional high-level arrivals before resolution.",
-              "context_requires_regen": false,
+              "context_requires_regen": true,
               "context_updated_at": "2026-08-26T06:31:44.279Z"
             },
             "version": "v1"
@@ -3654,7 +3654,7 @@
             "volume": 46539.569276999995,
             "openInterest": 26766.798591,
             "createdAt": "2026-08-24T00:57:19.695936Z",
-            "updatedAt": "2026-08-26T06:17:14.405203Z",
+            "updatedAt": "2026-08-26T07:02:31.575526Z",
             "competitive": 0.8003199679231757,
             "volume24hr": 34189.434966,
             "volume1wk": 45097.691901,
@@ -3701,9 +3701,9 @@
             "deployingTimestamp": "2026-08-24T00:57:26.809222Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Official National Weather Service observations recorded a daily maximum of 66\u00b0F downtown San Francisco on August 25, 2026, at 2:43 p.m. local time, matching the market's 66-67\u00b0F outcome at essentially 100% implied probability.** Airport data showed a slightly higher 68\u00b0F peak, but the resolution criteria align with the downtown reading. Persistent marine layer and morning fog, followed by high clouds and a strong sea breeze, suppressed inland heat transport and kept coastal temperatures several degrees below the 1991\u20132020 normal of roughly 69\u201374\u00b0F. No significant warming event or model shift occurred to push readings into the 70s. The only realistic challenge would be a post-event revision in the official climatological report or an unexpected measurement discrepancy at the designated station, both of which are rare once preliminary data are confirmed.",
+              "context_description": "**Official observations from the National Weather Service at San Francisco International Airport recorded a daily maximum of 68\u00b0F on August 25, 2026, aligning closely with the market's dominant 66-67\u00b0F outcome at 100% implied probability.** Persistent marine layer and onshore flow from the Pacific suppressed temperatures along the immediate coast, limiting afternoon warming despite a modest high-pressure influence that allowed some clearing. This kept readings in the mid-to-upper 60s across much of the city, consistent with climatological norms for late August under typical stratus and breeze conditions. With resolution imminent based on verified station data, traders priced in the narrow band reflecting the observed peak. Only an unexpected revision to the official maximum or use of an atypical microclimate station could realistically alter the outcome at this stage.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:17:14.245Z"
+              "context_updated_at": "2026-08-26T07:02:31.411Z"
             },
             "version": "v1"
           }
@@ -3846,7 +3846,7 @@
             "volume": 16732.570429,
             "openInterest": 16360.147904,
             "createdAt": "2026-08-13T05:48:05.179885Z",
-            "updatedAt": "2026-08-26T06:57:22.403976Z",
+            "updatedAt": "2026-08-26T07:50:50.445975Z",
             "competitive": 0.9999750006249843,
             "volume24hr": 16629.771486,
             "volume1wk": 16732.570429,
@@ -3876,7 +3876,7 @@
                 "volume24hr": 1410189.8400390001,
                 "volume": 1500544.8375910001,
                 "liquidity": 309945.45519,
-                "commentCount": 438,
+                "commentCount": 437,
                 "requiresTranslation": false
               }
             ],
@@ -3895,9 +3895,9 @@
             "gameId": 13002515,
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Toronto Tempo (11-26) visit the struggling Seattle Storm (7-31) on August 26 in a WNBA regular-season matchup between two teams eliminated from playoff contention. The expansion Tempo have won both prior meetings this season, including a 93-72 road victory in May behind Marina Mabrey\u2019s scoring and rookie Kiki Rice\u2019s defensive impact. Seattle enters on a three-game skid with the league\u2019s worst record and poor home defensive efficiency. Toronto\u2019s midseason additions, including forward Aneesah Morrow, have bolstered depth, while the Storm continue to battle injuries and inconsistent lineups. Home-court factors and rest advantages remain minimal this late in the schedule, with both clubs focused on development and evaluating roster pieces heading into the offseason.",
-              "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:17:39.770Z",
+              "context_description": "Seattle hosts Toronto on August 26 with both teams mired in poor records (Storm 7-31, Tempo 11-26), but Seattle enters as a home favorite amid a three-game skid. Toronto\u2019s inaugural season has been derailed by injuries, including season-ending absences for Brittney Sykes and Aneesah Morrow, leaving the roster depleted and contributing to a 12-game losing streak that only recently ended. Earlier meetings favored the Tempo, who won convincingly in May, yet Seattle\u2019s home-court edge and Toronto\u2019s road struggles (4-13) shape current trader consensus around the Storm\u2019s implied probability. Late-season roster health and back-to-back scheduling remain key variables.",
+              "context_requires_regen": true,
+              "context_updated_at": "2026-08-26T07:47:57.169Z",
               "opticOddsFixtureId": "20260827684D4A8E",
               "opticOddsGameId": "18053-27428-2026-08-26",
               "opticOddsNumericalId": 649288
@@ -4048,7 +4048,7 @@
             "openInterest": 4986.189671,
             "sortBy": "ascending",
             "createdAt": "2026-08-12T15:07:25.997236Z",
-            "updatedAt": "2026-08-26T06:17:54.192201Z",
+            "updatedAt": "2026-08-26T07:47:58.688735Z",
             "competitive": 0.8620689655172414,
             "volume24hr": 3257.45444,
             "volume1wk": 8255.899986999999,
@@ -4073,9 +4073,9 @@
             "deployingTimestamp": "2026-08-12T15:07:31.610766Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Strong El Ni\u00f1o conditions have produced elevated vertical wind shear and drier mid-level air across the Atlantic main development region, preventing the three named storms (Arthur, Bertha, Cristobal) from reaching the 64-knot hurricane threshold and yielding the basin\u2019s lowest August ACE on record. NOAA and NHC analyses show these hostile conditions persisting through the final days of the month, aligning with the 91% market-implied probability of no August hurricane. A new tropical wave east of the Cabo Verde Islands carries a modest chance of brief tropical-storm development, yet model consensus indicates it will encounter renewed shear before attaining hurricane intensity. Only an unexpected relaxation of shear or rapid organization of that wave could produce a late-August hurricane and shift odds.",
+              "context_description": "Strong El Ni\u00f1o conditions and associated high wind shear continue to suppress Atlantic tropical cyclone formation, leaving the basin with just three named storms\u2014all tropical depressions or storms\u2014and zero hurricanes as of August 26. The National Hurricane Center monitors Invest AL96 east of the Cabo Verde Islands, where marginally favorable waters may allow gradual organization into a tropical depression over the next day or two, though shear and drier air are projected to limit further strengthening by the weekend. Model consensus favors only modest development at most, with any system unlikely to reach the 74-knot hurricane threshold before September. This scientific backdrop underpins the 91% market-implied probability of no August hurricane, though an unexpected drop in shear or faster organization of the current wave could still shift outcomes in the final days.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:17:54.033Z"
+              "context_updated_at": "2026-08-26T07:47:58.526Z"
             },
             "version": "v1"
           }
@@ -4393,7 +4393,7 @@
             "volume": 4644.763322,
             "openInterest": 3116.833318,
             "createdAt": "2026-08-24T04:31:19.207247Z",
-            "updatedAt": "2026-08-26T06:14:05.227434Z",
+            "updatedAt": "2026-08-26T07:33:12.632031Z",
             "competitive": 0.8378016085790885,
             "volume24hr": 4140.682922,
             "volume1wk": 4644.763322,
@@ -4440,9 +4440,9 @@
             "deployingTimestamp": "2026-08-24T04:31:22.3726Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Clear skies and light easterly winds under high pressure are driving overnight radiative cooling in Amsterdam, with official and model guidance from sources aligned to GFS converging on a minimum near 13\u00b0C for August 26.** Recent observations show the prior night's low at 13.2\u00b0C, while late-August climatology places the typical minimum around 12.7\u201313.4\u00b0C; current conditions lack the stronger northerly flow or greater cloud cover that would push temperatures lower. Multiple forecasts list the low between 13\u201315\u00b0C with minimal precipitation risk, supporting the market's 61.8% implied probability on exactly 13\u00b0C and the low 6% odds on 12\u00b0C or below. Updated model runs and morning observations will determine final resolution as the day progresses.",
+              "context_description": "Recent forecasts from models like GFS and official monitoring indicate an overnight minimum near 13\u201315\u00b0C for Amsterdam on August 26, 2026, under clear to partly cloudy skies with light easterly winds and stable high pressure. This aligns with climatological late-August averages of roughly 12.7\u201313.4\u00b0C lows, following a recent minimum of 13.2\u00b0C on August 25 and no incoming cold advection or significant cloud cover to alter radiative cooling rates. Trader consensus at 61.8% for exactly 13\u00b0C reflects model agreement on these conditions, while the low 6% odds for 12\u00b0C or below account for minor forecast uncertainty in boundary-layer temperatures. No major shifts have emerged in the latest runs.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:04:02.704Z"
+              "context_updated_at": "2026-08-26T07:33:12.467Z"
             },
             "version": "v1"
           }
@@ -4583,7 +4583,7 @@
             "volume": 1994.62256,
             "openInterest": 2492.602559,
             "createdAt": "2026-08-24T04:30:30.269397Z",
-            "updatedAt": "2026-08-26T06:14:05.227434Z",
+            "updatedAt": "2026-08-26T07:48:26.161567Z",
             "competitive": 0.8035160254240507,
             "volume24hr": 1789.62286,
             "volume1wk": 1844.62286,
@@ -4631,7 +4631,7 @@
             "requiresTranslation": false,
             "eventMetadata": {
               "context_description": "Recent forecasts from Taiwan's Central Weather Administration indicate a minimum temperature in Taipei on August 26 near 25\u201326\u00b0C, aligning with the near-even market-implied odds between these outcomes. Persistent high humidity from prior showers, combined with variable cloud cover and light winds, limits nocturnal radiative cooling in the urban basin, where the heat island effect further elevates overnight lows relative to surrounding areas. Model consensus shows partly cloudy to overcast conditions through dawn, with any brief clearing potentially allowing a dip toward 25\u00b0C or holding it at 26\u00b0C depending on timing. Historical late-August minima average around 25\u00b0C, and traders weigh these localized meteorological variables against the latest observational updates.",
-              "context_requires_regen": false,
+              "context_requires_regen": true,
               "context_updated_at": "2026-08-26T05:18:20.237Z"
             },
             "version": "v1"
@@ -4772,7 +4772,7 @@
             "volume": 6757.115293,
             "openInterest": 4989.590784,
             "createdAt": "2026-08-25T04:55:56.632379Z",
-            "updatedAt": "2026-08-26T06:52:56.161825Z",
+            "updatedAt": "2026-08-26T07:48:22.234722Z",
             "competitive": 0.9869476177551876,
             "volume24hr": 6518.160494,
             "volume1wk": 6794.345292999999,
@@ -4821,9 +4821,9 @@
             "deployingTimestamp": "2026-08-25T04:55:59.31017Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Latest Met Office and ECMWF guidance shows a warm, humid air mass over London on August 27, with daytime heating under variable cloud expected to produce a peak of 24\u201325 \u00b0C before scattered showers and thunderstorms develop. Convective instability and southwesterly steering will limit prolonged sunshine and cap the maximum, while the exact timing of cloud breaks and rainfall onset creates narrow uncertainty between those two outcomes. Market-implied odds closely track this narrow range because ensemble runs converge on similar thermodynamics yet diverge slightly on precipitation evolution, with lower probabilities assigned to 26 \u00b0C or below 24 \u00b0C reflecting the low likelihood of either sustained clear skies or earlier, heavier rain.",
-              "context_requires_regen": true,
-              "context_updated_at": "2026-08-26T06:33:08.243Z"
+              "context_description": "Official forecasts from the Met Office and ensemble models indicate a maximum of 25\u00b0C for London on August 27, with hourly peaks near that level amid morning thunderstorms transitioning to partly cloudy skies. Persistent cloud cover, high humidity, and southeasterly winds of 8\u201312 mph limit surface heating and favor the clustered 24\u201326\u00b0C outcomes. Recent model runs show minor spread tied to exact rainfall timing and clearance, while climatological August maxima near 23\u00b0C provide context for the slightly elevated but unsettled conditions. Updated guidance and radar trends ahead of peak heating hours remain key variables for traders.",
+              "context_requires_regen": false,
+              "context_updated_at": "2026-08-26T07:48:22.074Z"
             },
             "version": "v1"
           }
@@ -4976,7 +4976,7 @@
             "volume": 2316.048069,
             "openInterest": 2903.4612009999996,
             "createdAt": "2026-08-24T04:31:41.29803Z",
-            "updatedAt": "2026-08-26T06:45:23.666392Z",
+            "updatedAt": "2026-08-26T07:03:41.250554Z",
             "competitive": 0.8127438231469442,
             "volume24hr": 2021.058069,
             "volume1wk": 2242.054069,
@@ -5023,9 +5023,9 @@
             "deployingTimestamp": "2026-08-24T04:31:44.584292Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Forecast models from NOAA and regional agencies indicate a minimum temperature near 30\u201332\u00b0C for Jeddah on August 26, driven by elevated Red Sea sea-surface temperatures around 31\u00b0C that suppress radiative cooling overnight, combined with moderate humidity levels near 50% and light winds under 5 m/s. Recent observations show August minima running 1\u20133\u00b0C above the 27\u00b0C climatological average amid stable high pressure and minimal cloud cover, reducing the chance of sharp drops below 29\u00b0C. Trader emphasis on 33\u00b0C and nearby bins reflects consensus that urban heat retention and warm advection will keep the daily low elevated, with resolution hinging on official station readings near the airport.",
-              "context_requires_regen": true,
-              "context_updated_at": "2026-08-26T05:48:26.567Z"
+              "context_description": "**Trader sentiment for Jeddah's August 26, 2026, lowest temperature centers on 31\u201333\u00b0C outcomes, reflecting forecast consensus for a typical summer overnight low.** Jeddah's Red Sea coastal location sustains high humidity and limits radiative cooling, keeping minima elevated even after daytime highs near 37\u201339\u00b0C. Recent August 2026 data show daily lows mostly 28\u201332\u00b0C amid above-normal warmth, with models from WeatherBug, Yr.no, and others projecting 29\u201333\u00b0C (roughly 84\u201391\u00b0F) for the night of the 26th due to light winds, scattered clouds, and sea-surface temperatures around 31\u00b0C. Historical August averages near 28\u201330\u00b0C provide context, but persistent seasonal heat and minimal frontal activity support the market's emphasis on the upper end of the usual range. Updated model runs and official observations will refine probabilities as the day progresses.",
+              "context_requires_regen": false,
+              "context_updated_at": "2026-08-26T07:03:41.091Z"
             },
             "version": "v1"
           }
@@ -5165,7 +5165,7 @@
             "volume": 14318.043969,
             "openInterest": 11434.245646,
             "createdAt": "2026-08-25T04:57:08.593067Z",
-            "updatedAt": "2026-08-26T06:47:52.489812Z",
+            "updatedAt": "2026-08-26T07:47:41.313977Z",
             "competitive": 0.9686168151879117,
             "volume24hr": 13981.181743,
             "volume1wk": 14361.938704,
@@ -5212,9 +5212,9 @@
             "deployingTimestamp": "2026-08-25T04:57:12.352126Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Latest numerical weather prediction runs from major global models indicate a modest daytime maximum in Madrid on August 27 likely to peak between 23\u201324 \u00b0C under mostly cloudy skies and southwesterly flow.** A cooler maritime air mass, combined with increased low- and mid-level cloud cover and scattered light showers or drizzle, is limiting surface heating compared with the seasonal climatological average high near 31 \u00b0C. Ensemble spreads remain modest, with the tight clustering of market-implied probabilities around 23\u201325 \u00b0C reflecting residual uncertainty in exact cloud timing and boundary-layer mixing rather than any major model disagreement. Resolution hinges on the official daily maximum recorded at the reference station; updated high-resolution guidance overnight will further constrain the narrow range still in play.",
-              "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:47:52.325Z"
+              "context_description": "**Forecast models indicate a cooler-than-average day in Madrid on August 27, 2026, with maximum temperatures likely peaking near 23\u201325\u00b0C.** Southwesterly flow, increased cloud cover, and scattered showers or drizzle\u2014driven by a passing Atlantic disturbance\u2014are expected to limit daytime solar heating and suppress the seasonal norm of ~31\u00b0C. Multiple sources, including GFS-derived guidance and detailed hourly runs, show afternoon readings stabilizing around 22\u201324\u00b0C amid mostly cloudy skies and light precipitation chances (35\u201350%). This setup creates tight differentiation among the leading market outcomes, as small variations in cloud timing, wind speed, or clearing could shift the official high by 1\u20132\u00b0C. Traders appear to price in this meteorological consensus, with historical late-August variability underscoring the value of updated model runs for resolution.",
+              "context_requires_regen": true,
+              "context_updated_at": "2026-08-26T07:32:49.040Z"
             },
             "version": "v1"
           }
@@ -5367,7 +5367,7 @@
             "volume": 17062.887628,
             "openInterest": 9979.610169000001,
             "createdAt": "2026-08-24T04:30:33.95715Z",
-            "updatedAt": "2026-08-26T06:14:05.227434Z",
+            "updatedAt": "2026-08-26T07:48:53.18001Z",
             "competitive": 0.8063865817272801,
             "volume24hr": 16550.617628,
             "volume1wk": 16900.617628,
@@ -5414,9 +5414,9 @@
             "deployingTimestamp": "2026-08-24T04:30:35.898084Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Persistent subtropical high pressure over the region has maintained clear to partly cloudy skies and elevated humidity levels, limiting nighttime radiative cooling and sustaining minimum temperatures near 26\u00b0C as measured by official stations. Recent model consensus from agencies like the China Meteorological Administration aligns with this, showing overnight lows of 26\u201329\u00b0C amid the ongoing heatwave, consistent with urban heat island effects in Chongqing that elevate baseline minima compared to surrounding rural areas. Trader consensus at 99% for 26\u00b0C reflects this alignment of observational trends and short-range forecasts. A sudden increase in cloud cover or localized precipitation could enhance cooling and shift the recorded low lower, while any revision in official station data remains a low-probability resolution risk.",
-              "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:03:17.397Z"
+              "context_description": "**Persistent subtropical high pressure over the region has sustained elevated overnight minimum temperatures in Chongqing, with official forecasts and model consensus pointing to a low near 26\u00b0C on August 26 under mostly clear to partly cloudy conditions and light winds.** Recent observations show nighttime readings stabilizing in the 28\u201330\u00b0C range, consistent with the current heat dome and limited radiative cooling, while peripheral typhoon influences remain too distant to enhance cloud cover or precipitation enough for greater overnight drops. Historical August baselines for the city typically feature minima of 25\u201328\u00b0C during similar high-pressure setups, reinforcing trader alignment with the 26\u00b0C outcome at 99% implied probability. Resolution hinges on official station data, so localized convective activity or revised model runs introducing unexpected moisture could still shift the exact minimum.",
+              "context_requires_regen": true,
+              "context_updated_at": "2026-08-26T07:47:58.890Z"
             },
             "version": "v1"
           }
@@ -5554,7 +5554,7 @@
             "volume": 2731.31486,
             "openInterest": 1591.7601439999999,
             "createdAt": "2026-08-25T04:58:18.678209Z",
-            "updatedAt": "2026-08-26T06:48:34.078419Z",
+            "updatedAt": "2026-08-26T07:48:40.270262Z",
             "competitive": 0.9996001599360256,
             "volume24hr": 2711.279072,
             "volume1wk": 2731.31486,
@@ -5602,7 +5602,7 @@
             "requiresTranslation": false,
             "eventMetadata": {
               "context_description": "Recent numerical weather prediction models, including runs from the Turkish State Meteorological Service and global ensembles, indicate a peak temperature of 27\u201329\u00b0C in Istanbul on August 27 under mostly sunny skies with moderate northeasterly flow. This positioning favors the 27\u00b0C outcome (52% implied probability) over higher values, as fresh air advection from the Black Sea and limited insolation under partly cloudy conditions are expected to cap daytime heating below recent 30\u201332\u00b0C readings. Traders are weighting these model consensus signals ahead of final observations, with 28\u00b0C holding secondary support at 33% amid minor run-to-run variability in boundary-layer moisture and wind strength.",
-              "context_requires_regen": false,
+              "context_requires_regen": true,
               "context_updated_at": "2026-08-26T06:48:33.901Z"
             },
             "version": "v1"
@@ -5756,7 +5756,7 @@
             "volume": 51448.197566,
             "openInterest": 39233.461467,
             "createdAt": "2026-08-24T04:58:38.376177Z",
-            "updatedAt": "2026-08-26T06:50:41.098939Z",
+            "updatedAt": "2026-08-26T07:48:00.470049Z",
             "competitive": 0.9991008092716555,
             "volume24hr": 47263.334553,
             "volume1wk": 51448.197565999995,
@@ -5803,9 +5803,9 @@
             "deployingTimestamp": "2026-08-24T04:58:40.341662Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Current trader consensus on the Kuala Lumpur daily maximum leans toward 31\u00b0C (47% implied probability) over 32\u00b0C (37.5%), reflecting model consensus for a peak near 30\u201332\u00b0C amid widespread afternoon convection.** Equatorial August conditions feature high humidity, light southerly winds, and frequent thunderstorm development tied to the Intertropical Convergence Zone, which typically caps afternoon temperatures through cloud shading and evaporative cooling. Recent strengthening El Ni\u00f1o conditions have elevated regional baselines, yet today\u2019s overcast skies and 70\u201380% rain chances\u2014per multiple forecasts\u2014limit radiative heating and favor the lower of the two leading outcomes. Official resolution will hinge on the highest instantaneous reading at primary stations before evening cooling, with any delayed storm timing potentially shifting the result by 1\u00b0C.",
+              "context_description": "Forecast models from agencies including METMalaysia and international ensembles point to a daily maximum of 31\u201332\u00b0C in Kuala Lumpur today, driven by persistent cloud cover and scattered afternoon thunderstorms that reduce solar heating during peak insolation hours. High humidity near 70\u201390% and light southerly winds further moderate surface temperatures while elevating heat indices. Historical August maxima average around 33\u00b0C, yet current steering patterns and moisture favor convection that caps readings below seasonal peaks, creating tight odds between the leading outcomes. Updated model runs and official METAR observations through midday will clarify whether brief clear spells allow a 32\u00b0C spike or sustained rain keeps it at 31\u00b0C.",
               "context_requires_regen": true,
-              "context_updated_at": "2026-08-26T06:47:12.873Z"
+              "context_updated_at": "2026-08-26T07:47:19.245Z"
             },
             "version": "v1"
           }
@@ -5946,7 +5946,7 @@
             "volume": 14027.130881,
             "openInterest": 6682.946988,
             "createdAt": "2026-08-24T04:29:10.153702Z",
-            "updatedAt": "2026-08-26T06:47:55.138589Z",
+            "updatedAt": "2026-08-26T07:49:23.987594Z",
             "competitive": 0.9248768757659137,
             "volume24hr": 9569.120791,
             "volume1wk": 13660.125881,
@@ -5993,9 +5993,9 @@
             "deployingTimestamp": "2026-08-24T04:29:11.945102Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Current forecasts from multiple meteorological sources point to an overnight minimum near 25\u201326\u00b0C in the Seoul-Incheon area on August 26, 2026, consistent with the market\u2019s strong weighting toward those two outcomes.** Persistent warm, humid air under partly to mostly cloudy skies, combined with light variable winds and high dew points in the mid-20s \u00b0C, has limited radiative cooling overnight. This pattern follows several recent tropical nights in the region, where urban heat-island effects and elevated moisture have kept lows above the late-August climatological average of roughly 22\u201323 \u00b0C.\n\nOfficial guidance from agencies including the Korea Meteorological Administration and international models (GFS, ECMWF equivalents) shows the 24-hour minimum stabilizing in the 24\u201326 \u00b0C range, with little disagreement among runs. The absence of a significant frontal passage or stronger northerly flow through the period has kept probabilities anchored on these values rather than cooler thresholds. As the calendar day concludes, the final official minimum recorded at the Incheon or Seoul synoptic station will determine resolution; any last-hour observational revision remains the primary uncertainty for traders.",
-              "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:47:54.980Z"
+              "context_description": "**Persistent late-summer warmth and high humidity are keeping overnight lows elevated in the Seoul-Incheon area on August 26, 2026.** Official forecasts and real-time observations point to a minimum near 25\u201326\u00b0C (78\u201379\u00b0F), with limited radiative cooling overnight due to cloud cover, elevated dew points around 24\u201326\u00b0C, and urban heat retention. Korean Meteorological Administration and international models (including ECMWF/GFS consensus) show daytime highs near 29\u201332\u00b0C transitioning to nighttime temperatures that hold in the mid-20s, consistent with a tropical night pattern common in humid August conditions.\n\nMarket-implied odds\u201470% on 26\u00b0C and 21.5% on 25\u00b0C\u2014reflect this consensus, as recent model runs and early-day observations have not indicated stronger cooling from wind shifts or clearer skies. Historical August normals place typical minima closer to 22\u201323\u00b0C, but 2026\u2019s ongoing warm anomaly and lack of significant frontal passages this week have pushed probabilities toward the higher end of the range. Key resolution hinges on the official Incheon International Airport reading; any unexpected clear-sky radiative cooling or localized shower could shift the final minimum downward, though current data favor stability near 26\u00b0C.",
+              "context_requires_regen": true,
+              "context_updated_at": "2026-08-26T07:32:51.316Z"
             },
             "version": "v1"
           }
@@ -6135,7 +6135,7 @@
             "volume": 2871.46447,
             "openInterest": 2375.219298,
             "createdAt": "2026-08-25T04:58:14.919579Z",
-            "updatedAt": "2026-08-26T06:33:37.893137Z",
+            "updatedAt": "2026-08-26T07:48:48.938683Z",
             "competitive": 0.9794079478954972,
             "volume24hr": 2866.46447,
             "volume1wk": 2871.46447,
@@ -6182,9 +6182,9 @@
             "deployingTimestamp": "2026-08-25T04:58:16.936158Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Recent model consensus from sources including Russia's Hydrometeorological Center and GFS runs points to variable cloudiness with light northerly winds on August 27, supporting daytime maxima near 19\u201320\u00b0C and limiting stronger warming. This follows cooler, showery conditions on the 26th that reduced heat buildup, with no notable warm-air advection or clear-sky enhancement expected. Historical late-August averages near 20.6\u00b0C provide context, yet current steering patterns and modest insolation under partial cloud keep outcomes clustered in the upper teens. Minor model differences in cloud timing and boundary-layer mixing create the tight spread between 18\u00b0C and 19\u00b0C implied probabilities, with 20\u00b0C or higher requiring clearer skies or delayed cooling than most guidance indicates. Updated NWP runs and surface observations ahead of peak heating hours remain key for refinement.",
+              "context_description": "Recent forecasts from the Hydrometeorological Center and multiple models show Moscow's August 27 high likely reaching 19\u201320\u00b0C under variable cloud cover, light northerly to northwesterly winds of 2\u20137 m/s, and negligible precipitation. These conditions limit solar heating while advecting cooler maritime air, keeping values near the late-August climatological average of 20.6\u00b0C. Minor model spread around peak timing and cloud thickness creates the narrow market edge for 19\u00b0C over 18\u00b0C, with lower probabilities for 20\u00b0C or above reflecting the risk of greater daytime mixing or clearer skies. Official updates from Roshydromet and refined GFS/ECMWF runs will clarify resolution thresholds before market close.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:33:37.735Z"
+              "context_updated_at": "2026-08-26T07:48:48.779Z"
             },
             "version": "v1"
           }
@@ -6326,7 +6326,7 @@
             "volume": 2135.428188,
             "openInterest": 2377.938184,
             "createdAt": "2026-08-24T04:31:51.489449Z",
-            "updatedAt": "2026-08-26T06:45:47.933246Z",
+            "updatedAt": "2026-08-26T07:03:42.213055Z",
             "competitive": 0.8035160254240507,
             "volume24hr": 1549.1981879999998,
             "volume1wk": 2120.428188,
@@ -6373,9 +6373,9 @@
             "deployingTimestamp": "2026-08-24T04:31:54.409367Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Persistent cloudy, humid, and stormy conditions are keeping overnight lows in Guangzhou tightly clustered around 25\u201326\u00b0C on August 26, 2026, driving the near-even market split between those two outcomes.**\n\nHigh dew points near 25\u201326\u00b0C from elevated moisture and widespread rain/thunderstorms (forecast probabilities 70\u201399% in multiple models) suppress radiative cooling overnight. Official and ensemble guidance from sources like WeatherBug, Met Office, and local Chinese forecasts consistently point to a minimum near 26\u201327\u00b0C (roughly 79\u201381\u00b0F), with hourly data showing temperatures bottoming out in the mid-20s under overcast skies and light southerly/easterly winds. Historical late-August climatology for the subtropical city features average lows around 24\u201325\u00b0C, but the current active monsoon/tropical moisture pattern has elevated them slightly.\n\nThe tight probabilities (25\u00b0C at 49.5%, 26\u00b0C at 48.0%) reflect genuine model and observational uncertainty in the precise timing and intensity of rainfall, which can produce small variations in the daily minimum. Clearer skies or a temporary break in convection would be needed to push readings noticeably lower (e.g., toward 23\u00b0C), while any additional moisture or wind shift could hold them at or above 26\u00b0C. No major synoptic change is expected before the end of the day.",
-              "context_requires_regen": true,
-              "context_updated_at": "2026-08-26T05:03:53.959Z"
+              "context_description": "Ongoing precipitation and extensive cloud cover from active thunderstorm systems are the main drivers keeping Guangzhou\u2019s minimum temperature on track for 25\u201326 \u00b0C, with market-implied odds nearly tied between those two outcomes. High humidity near 85\u201390 % limits nocturnal radiative cooling, while light southerly winds and a weak pressure gradient prevent significant advection of cooler air. Official forecasts from regional meteorological services consistently project overnight lows of 25\u201327 \u00b0C amid continued rain, aligning with the historical August average minimum of ~25 \u00b0C but tempered by the present moist, overcast regime. Model consensus and real-time observations favor this narrow range over cooler or warmer extremes, with final resolution dependent on the exact timing of any clearing before dawn.",
+              "context_requires_regen": false,
+              "context_updated_at": "2026-08-26T07:03:42.055Z"
             },
             "version": "v1"
           }
@@ -6515,7 +6515,7 @@
             "volume": 6848.176756999999,
             "openInterest": 4216.787151,
             "createdAt": "2026-08-25T00:57:42.109301Z",
-            "updatedAt": "2026-08-26T06:14:05.227434Z",
+            "updatedAt": "2026-08-26T07:33:15.541144Z",
             "competitive": 0.9993753903810119,
             "volume24hr": 5213.493286,
             "volume1wk": 6848.176757,
@@ -6562,9 +6562,9 @@
             "deployingTimestamp": "2026-08-25T00:57:47.499478Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Trader sentiment for the highest temperature in Panama City, Panama, on August 26 centers on 31\u201333\u00b0C, with 32\u00b0C holding the strongest implied probability at 47.5%.** This reflects typical late-August conditions in the region\u2019s tropical wet season, when average daily highs reach 29\u201332\u00b0C amid high humidity and frequent convective activity.\n\nCurrent forecasts from multiple sources indicate a daytime maximum near 28\u201330\u00b0C, tempered by cloud cover, scattered showers, and thunderstorms that limit solar heating. These conditions align with the market\u2019s clustering around 31\u201333\u00b0C rather than higher values, as afternoon convection and Pacific maritime influence often cap peaks below seasonal extremes. Historical data show August maxima rarely exceed 33\u201334\u00b0C without clear skies or anomalous ridging, both absent in recent model guidance.\n\nKey resolution factors include official observations (e.g., from local meteorological stations), where even modest thunderstorm timing or increased cloud fraction can shift the daily high by 1\u20132\u00b0C. With probabilities heavily weighted toward the middle of the typical range and minimal tail risk shown for 34\u00b0C+, traders appear to view near-normal tropical convection as the dominant driver, with little evidence of atypical warming.",
+              "context_description": "**Trader consensus centers on 32\u00b0C as the most probable daily maximum in Panama City, Panama, on August 26, 2026, reflecting the city\u2019s typical August climatology during the rainy season.** Official and model guidance shows afternoon highs commonly reaching 30\u201333\u00b0C, with 32\u00b0C aligning closely to the long-term average high near 32\u00b0C and recent observations of 33\u00b0C the prior day.\n\nKey scientific factors include the tropical maritime climate, where high solar insolation under partly cloudy skies drives rapid daytime warming until convection and thunderstorms develop in the afternoon. Persistent humidity (often 70\u201390%) and scattered showers limit extreme spikes by enhancing cloud cover and evaporative cooling, keeping most realizations clustered around 31\u201333\u00b0C rather than outliers above 34\u00b0C or below 30\u00b0C. Model consensus and real-time monitoring from agencies like those feeding into standard weather services emphasize this narrow range, with no anomalous atmospheric setup (such as unusual subsidence or dry-air intrusion) shifting probabilities away from the historical baseline.\n\nRecent data reinforce stability: August patterns feature frequent but brief convective activity that caps peaks without major cooling, and current forecasts indicate similar conditions for the 26th. Upcoming updates from regional models or morning observations could refine the exact maximum if cloud timing changes, but the market-implied odds capture the narrow scientific uncertainty typical for this location and season.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T05:48:01.830Z"
+              "context_updated_at": "2026-08-26T07:33:15.357Z"
             },
             "version": "v1"
           }
@@ -6717,7 +6717,7 @@
             "volume": 7980.692272,
             "openInterest": 5731.315027,
             "createdAt": "2026-08-25T04:56:01.518853Z",
-            "updatedAt": "2026-08-26T06:48:06.177962Z",
+            "updatedAt": "2026-08-26T07:48:10.008889Z",
             "competitive": 0.9734965562559322,
             "volume24hr": 7900.813954,
             "volume1wk": 8026.445694,
@@ -6764,9 +6764,9 @@
             "deployingTimestamp": "2026-08-25T04:56:03.89991Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Recent official forecasts from European models and M\u00e9t\u00e9o-France indicate an unstable, mostly cloudy pattern with scattered showers for Paris on August 27, limiting daytime heating and supporting a peak near 26\u201327\u00b0C. Ensemble guidance shows afternoon temperatures climbing from morning lows around 17\u201320\u00b0C under variable southwest flow, with limited breaks of sun potentially allowing brief spikes toward 28\u00b0C if convection is delayed. This aligns with the market\u2019s tight distribution around those three outcomes. Historical climatology places the long-term average high near 24\u00b0C, so current conditions represent modest above-normal warmth tempered by Atlantic moisture. Updated high-resolution runs and observational trends through the morning will likely narrow the range before resolution.",
+              "context_description": "Recent forecast model runs indicate scattered showers and thunderstorms developing amid an unstable airmass, with cloud cover and precipitation timing creating narrow uncertainty around the daily maximum. Official guidance and ensemble outputs cluster afternoon peaks between 26\u201328\u00b0C, as modest southwesterly flow and moderate humidity moderate insolation while any breaks in cloud could briefly allow 28\u00b0C or higher. This scientific variability\u2014differences in convective timing and boundary-layer mixing across GFS and ECMWF solutions\u2014underpins the closely matched market-implied odds for 26\u00b0C, 27\u00b0C, and 28\u00b0C. Updated model cycles and midday observations tomorrow will likely refine the precise threshold before resolution.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:48:06.019Z"
+              "context_updated_at": "2026-08-26T07:48:09.819Z"
             },
             "version": "v1"
           }
@@ -6905,7 +6905,7 @@
             "openInterest": 13532.796499000002,
             "sortBy": "ascending",
             "createdAt": "2026-08-20T00:39:01.277853Z",
-            "updatedAt": "2026-08-26T06:47:36.747359Z",
+            "updatedAt": "2026-08-26T07:17:19.390423Z",
             "competitive": 0.9997750506136119,
             "volume24hr": 1405.393916,
             "volume1wk": 21593.913173,
@@ -6951,9 +6951,9 @@
             "deploying": false,
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Recent diplomatic activity between Russia and Ukraine remains limited following multiple US-brokered trilateral rounds in Abu Dhabi and Geneva during January and February 2026, which produced prisoner exchanges but no agreement on core issues such as territorial control in Donbas or security arrangements.** Those talks paused amid US attention to other priorities and have not resumed at scale. As of late August 2026, Ukrainian President Zelensky has outlined a narrow window for renewed US mediation extending through summer 2027, including proposals for a ceasefire and third-party economic arrangements in contested areas, while Russian officials state openness to ideas aligned with Moscow\u2019s positions on territory and other demands. Battlefield developments, prisoner swaps, and any scheduled high-level contacts ahead of the December 2026 G20 summit represent the main near-term catalysts that could influence the probability of a meeting occurring by the market\u2019s resolution date.",
+              "context_description": "Ongoing US-mediated diplomacy has shaped expectations for Russia-Ukraine contacts, with the last confirmed trilateral meetings occurring in Geneva in February 2026 before stalling amid Washington\u2019s focus on the Iran conflict. Recent indirect channels include July 2026 talks between US Secretary Rubio and Russian Foreign Minister Lavrov, plus Ukrainian President Zelenskyy\u2019s meetings with US envoys Witkoff and Kushner, alongside Zelenskyy-Trump discussions on reviving negotiations. Russia continues to condition direct engagement on Ukrainian territorial concessions and external guarantees, while rejecting compromise proposals as inconsistent with battlefield realities. European support for Kyiv persists, but no bilateral Russia-Ukraine sessions have materialized since early 2026. Scheduled US envoy travel to Moscow and Zelenskyy\u2019s outlined mediation window through summer 2027 remain key variables that could prompt renewed formal contacts.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:47:36.567Z"
+              "context_updated_at": "2026-08-26T07:17:19.227Z"
             },
             "version": "v1"
           }
@@ -7092,7 +7092,7 @@
             "volume": 14027.130881,
             "openInterest": 6682.946988,
             "createdAt": "2026-08-24T04:29:10.153702Z",
-            "updatedAt": "2026-08-26T06:47:55.138589Z",
+            "updatedAt": "2026-08-26T07:49:23.987594Z",
             "competitive": 0.9248768757659137,
             "volume24hr": 9569.120791,
             "volume1wk": 13660.125881,
@@ -7139,9 +7139,9 @@
             "deployingTimestamp": "2026-08-24T04:29:11.945102Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Current forecasts from multiple meteorological sources point to an overnight minimum near 25\u201326\u00b0C in the Seoul-Incheon area on August 26, 2026, consistent with the market\u2019s strong weighting toward those two outcomes.** Persistent warm, humid air under partly to mostly cloudy skies, combined with light variable winds and high dew points in the mid-20s \u00b0C, has limited radiative cooling overnight. This pattern follows several recent tropical nights in the region, where urban heat-island effects and elevated moisture have kept lows above the late-August climatological average of roughly 22\u201323 \u00b0C.\n\nOfficial guidance from agencies including the Korea Meteorological Administration and international models (GFS, ECMWF equivalents) shows the 24-hour minimum stabilizing in the 24\u201326 \u00b0C range, with little disagreement among runs. The absence of a significant frontal passage or stronger northerly flow through the period has kept probabilities anchored on these values rather than cooler thresholds. As the calendar day concludes, the final official minimum recorded at the Incheon or Seoul synoptic station will determine resolution; any last-hour observational revision remains the primary uncertainty for traders.",
-              "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:47:54.980Z"
+              "context_description": "**Persistent late-summer warmth and high humidity are keeping overnight lows elevated in the Seoul-Incheon area on August 26, 2026.** Official forecasts and real-time observations point to a minimum near 25\u201326\u00b0C (78\u201379\u00b0F), with limited radiative cooling overnight due to cloud cover, elevated dew points around 24\u201326\u00b0C, and urban heat retention. Korean Meteorological Administration and international models (including ECMWF/GFS consensus) show daytime highs near 29\u201332\u00b0C transitioning to nighttime temperatures that hold in the mid-20s, consistent with a tropical night pattern common in humid August conditions.\n\nMarket-implied odds\u201470% on 26\u00b0C and 21.5% on 25\u00b0C\u2014reflect this consensus, as recent model runs and early-day observations have not indicated stronger cooling from wind shifts or clearer skies. Historical August normals place typical minima closer to 22\u201323\u00b0C, but 2026\u2019s ongoing warm anomaly and lack of significant frontal passages this week have pushed probabilities toward the higher end of the range. Key resolution hinges on the official Incheon International Airport reading; any unexpected clear-sky radiative cooling or localized shower could shift the final minimum downward, though current data favor stability near 26\u00b0C.",
+              "context_requires_regen": true,
+              "context_updated_at": "2026-08-26T07:32:51.316Z"
             },
             "version": "v1"
           }
@@ -7282,7 +7282,7 @@
             "volume": 8877.29693,
             "openInterest": 7097.559021000001,
             "createdAt": "2026-08-25T00:55:49.45585Z",
-            "updatedAt": "2026-08-26T06:48:05.080148Z",
+            "updatedAt": "2026-08-26T07:48:10.670525Z",
             "competitive": 0.9669075878072954,
             "volume24hr": 8031.6797209999995,
             "volume1wk": 8598.30593,
@@ -7329,9 +7329,9 @@
             "deployingTimestamp": "2026-08-25T00:55:52.237621Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Current forecasts from multiple models indicate a likely peak of 21\u201323\u00b0C in S\u00e3o Paulo on August 26, consistent with the market\u2019s tight clustering around those outcomes and typical August climatology for the region. Light easterly to westerly winds, widespread cloud cover, and scattered light drizzle or fog are limiting daytime heating and vertical mixing, while high humidity near 60\u201380% further moderates temperatures. Minor differences among 21\u00b0C, 22\u00b0C, and 23\u00b0C hinges on the exact timing and extent of any afternoon clearing or brief showers, as well as urban heat-island contributions near official stations. Updated model runs and real-time observations through the afternoon will refine the precise maximum before market resolution.",
+              "context_description": "**Trader sentiment for Sao Paulo\u2019s August 26 high centers on 21\u201323 \u00b0C because official forecasts from sources including Climatempo, Met Office, and IPMet converge on a mild winter maximum under persistent cloud cover and light winds.** Overcast skies and a low-pressure system are limiting solar insolation and promoting scattered afternoon drizzle or garoa, which caps surface heating and favors a peak near 22 \u00b0C. Historical August averages near 22 \u00b0C provide context, but today\u2019s elevated humidity and 100 % cloud cover differentiate outcomes: clearer breaks could push readings to 24 \u00b0C, while earlier or heavier showers would keep them at 21 \u00b0C or below. With resolution dependent on the official station\u2019s daily maximum, traders weigh model timing of any clearing against real-time observations.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:48:04.918Z"
+              "context_updated_at": "2026-08-26T07:48:10.498Z"
             },
             "version": "v1"
           }
@@ -7484,7 +7484,7 @@
             "volume": 3843.0772389999997,
             "openInterest": 3023.807784,
             "createdAt": "2026-08-25T04:56:36.067012Z",
-            "updatedAt": "2026-08-26T06:18:17.113676Z",
+            "updatedAt": "2026-08-26T07:33:27.834141Z",
             "competitive": 0.9750390015600624,
             "volume24hr": 3843.077239,
             "volume1wk": 3843.077239,
@@ -7531,9 +7531,9 @@
             "deployingTimestamp": "2026-08-25T04:56:38.081777Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Recent monsoon activity and widespread thunderstorm forecasts from the India Meteorological Department point to suppressed daytime heating in Lucknow on August 27, with models converging on a maximum near 31\u00b0C amid 70-90% rain probability and high humidity. Persistent cloud cover and scattered showers limit solar insolation, keeping highs below recent peaks of 33-35\u00b0C while steering clear of extremes above 34\u00b0C. Trader-implied odds reflect this consensus around 30-32\u00b0C, with the distribution underscoring forecast sensitivity to precipitation timing and intensity. Updated NWP runs and official advisories through the evening will refine the exact threshold.",
+              "context_description": "Trader sentiment for Lucknow's peak temperature on August 27 centers on the 31\u201332\u00b0C range, reflecting monsoon-season atmospheric conditions and consensus from India Meteorological Department models. The broad distribution across 29\u201333\u00b0C underscores forecast uncertainty from variable cloud cover, humidity levels, and potential convective rainfall, which can suppress daytime maxima. Late-August climatology shows typical highs near 32\u00b0C, with short-term steering patterns and moisture influx as key variables that could shift outcomes. Official IMD observational data at resolution time will determine the exact maximum under standard measurement protocols.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:18:16.947Z"
+              "context_updated_at": "2026-08-26T07:33:27.646Z"
             },
             "version": "v1"
           }
@@ -7612,7 +7612,7 @@
         "closed": false,
         "marketMakerAddress": "",
         "createdAt": "2026-08-25T00:56:07.03074Z",
-        "updatedAt": "2026-08-26T06:13:40.113068Z",
+        "updatedAt": "2026-08-26T07:02:27.723902Z",
         "new": false,
         "featured": false,
         "archived": false,
@@ -7675,7 +7675,7 @@
             "volume": 4844.5954,
             "openInterest": 3715.5256379999996,
             "createdAt": "2026-08-25T00:56:06.199843Z",
-            "updatedAt": "2026-08-26T06:18:16.217991Z",
+            "updatedAt": "2026-08-26T07:33:12.147082Z",
             "competitive": 0.9919650828290844,
             "volume24hr": 3283.48935,
             "volume1wk": 4506.6004,
@@ -7722,9 +7722,9 @@
             "deployingTimestamp": "2026-08-25T00:56:08.394798Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Forecast models from the National Weather Service and local outlets converge on a daytime high near 77\u201379\u00b0F for Seattle on August 26, 2026, as moderating marine air from the Pacific and Puget Sound limits inland heating after Tuesday\u2019s warmer 85\u201386\u00b0F reading. Onshore southwesterly flow and increasing cloud cover suppress further warming, consistent with climatological August averages of 75\u201379\u00b0F and the region\u2019s typical avoidance of interior heat domes. Key variables differentiating the closely matched 76\u201377\u00b0F and 78\u201379\u00b0F outcomes include exact timing of cloud build-up, boundary-layer mixing depth, and any late-day clearing. Official Sea-Tac observations will resolve the market once maximum temperature is recorded.",
+              "context_description": "Forecast models from the National Weather Service and other sources indicate a peak temperature in the mid-to-upper 70s for Seattle on August 26, 2026, following hotter conditions the prior day. Mostly sunny skies with light southerly winds and minimal marine layer influence support surface heating to this range, consistent with late-August climatology near 75.5\u00b0F at Sea-Tac. Trader emphasis on 76\u201379\u00b0F brackets reflects model consensus around these values, while lower probabilities for 80\u00b0F+ account for potential afternoon cloud increases or slightly stronger onshore flow that could cap maxima. Resolution hinges on the official daily high reported by NOAA stations.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:18:16.046Z"
+              "context_updated_at": "2026-08-26T07:33:11.987Z"
             },
             "version": "v1"
           }
@@ -7742,12 +7742,12 @@
             "conditionId": "0xc0d27b95ff1e934d53b010642c6520325f8b30f2e5eeae939eda44f6ac00125a",
             "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
             "rewardsAmount": 0,
-            "rewardsDailyRate": 37,
+            "rewardsDailyRate": 75,
             "startDate": "2026-08-26",
             "endDate": "2500-12-31"
           }
         ],
-        "rewardsMinSize": 20,
+        "rewardsMinSize": 100,
         "rewardsMaxSpread": 4.5,
         "spread": 0.03,
         "oneDayPriceChange": -0.065,
@@ -7877,7 +7877,7 @@
             "volume": 4644.763322,
             "openInterest": 3116.833318,
             "createdAt": "2026-08-24T04:31:19.207247Z",
-            "updatedAt": "2026-08-26T06:14:05.227434Z",
+            "updatedAt": "2026-08-26T07:33:12.632031Z",
             "competitive": 0.8378016085790885,
             "volume24hr": 4140.682922,
             "volume1wk": 4644.763322,
@@ -7924,9 +7924,9 @@
             "deployingTimestamp": "2026-08-24T04:31:22.3726Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Clear skies and light easterly winds under high pressure are driving overnight radiative cooling in Amsterdam, with official and model guidance from sources aligned to GFS converging on a minimum near 13\u00b0C for August 26.** Recent observations show the prior night's low at 13.2\u00b0C, while late-August climatology places the typical minimum around 12.7\u201313.4\u00b0C; current conditions lack the stronger northerly flow or greater cloud cover that would push temperatures lower. Multiple forecasts list the low between 13\u201315\u00b0C with minimal precipitation risk, supporting the market's 61.8% implied probability on exactly 13\u00b0C and the low 6% odds on 12\u00b0C or below. Updated model runs and morning observations will determine final resolution as the day progresses.",
+              "context_description": "Recent forecasts from models like GFS and official monitoring indicate an overnight minimum near 13\u201315\u00b0C for Amsterdam on August 26, 2026, under clear to partly cloudy skies with light easterly winds and stable high pressure. This aligns with climatological late-August averages of roughly 12.7\u201313.4\u00b0C lows, following a recent minimum of 13.2\u00b0C on August 25 and no incoming cold advection or significant cloud cover to alter radiative cooling rates. Trader consensus at 61.8% for exactly 13\u00b0C reflects model agreement on these conditions, while the low 6% odds for 12\u00b0C or below account for minor forecast uncertainty in boundary-layer temperatures. No major shifts have emerged in the latest runs.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:04:02.704Z"
+              "context_updated_at": "2026-08-26T07:33:12.467Z"
             },
             "version": "v1"
           }
@@ -8067,7 +8067,7 @@
             "volume": 8035.533756999999,
             "openInterest": 6665.2772730000015,
             "createdAt": "2026-08-25T04:56:32.55079Z",
-            "updatedAt": "2026-08-26T06:18:04.66986Z",
+            "updatedAt": "2026-08-26T07:46:50.89484Z",
             "competitive": 0.9997750506136119,
             "volume24hr": 7911.500429000001,
             "volume1wk": 8141.477022,
@@ -8114,9 +8114,9 @@
             "deployingTimestamp": "2026-08-25T04:56:34.367644Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Recent official forecasts from MetService-aligned sources and international models converge on a daytime high of 13\u201314 \u00b0C for Wellington on 27 August, consistent with the market\u2019s leading probabilities (14 \u00b0C at 51.5 %, 13 \u00b0C at 35.5 %). A trough approaching from the Tasman Sea is expected to deliver southerly winds that replace the recent northerly flow, moderating temperatures after several days of above-average readings (17 \u00b0C on 25 August). Persistent cloud cover and scattered showers will limit daytime heating, while the seasonal baseline for late-winter Wellington maxima hovers near 13\u201315 \u00b0C. Updated model runs and the next MetService briefing remain the key near-term catalysts that could shift the narrow spread between the two dominant outcomes.",
-              "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:18:04.463Z"
+              "context_description": "Recent forecasts from MetService-aligned sources and numerical weather models position a daily maximum of 13\u201314 \u00b0C as the most probable outcome for Wellington on August 27, reflecting a southerly airstream with increased cloud cover and scattered showers that limit daytime heating. Persistent northerlies earlier in the week gave way to cooler southeasterlies, keeping temperatures near the seasonal average of roughly 13 \u00b0C while suppressing the brief warmer anomalies seen on August 25. Model consensus shows limited spread, with minimal risk of either stronger cold advection dropping the high to 12 \u00b0C or clearer skies allowing a brief climb to 15 \u00b0C. Updated guidance expected overnight will confirm whether any late adjustment to wind direction or cloud timing shifts the implied probabilities.",
+              "context_requires_regen": true,
+              "context_updated_at": "2026-08-26T07:32:59.206Z"
             },
             "version": "v1"
           }
@@ -8268,7 +8268,7 @@
             "volume": 2159.879854,
             "openInterest": 2032.8378490000005,
             "createdAt": "2026-08-24T04:30:37.531975Z",
-            "updatedAt": "2026-08-26T06:54:21.802584Z",
+            "updatedAt": "2026-08-26T07:03:40.045092Z",
             "competitive": 0.8408837688410519,
             "volume24hr": 1762.879854,
             "volume1wk": 2024.879854,
@@ -8315,9 +8315,9 @@
             "deployingTimestamp": "2026-08-24T04:30:39.586381Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Recent forecasts from multiple models indicate Beijing's overnight minimum on August 26 will likely settle near 20\u201322 \u00b0C amid persistent cloud cover, light rain, and high humidity (70\u201385 %) that limits radiative cooling. Weak steering flow and residual moisture from prior subtropical high influence keep temperatures from falling sharply below the seasonal average low of ~20 \u00b0C, while variable wind speeds and localized shower timing introduce small uncertainties that differentiate the closely matched 19\u201322 \u00b0C market outcomes. Official guidance shows the mercury holding around 21\u201323 \u00b0C through the pre-dawn hours before gradual daytime recovery, aligning trader consensus with these observational constraints.",
-              "context_requires_regen": true,
-              "context_updated_at": "2026-08-26T05:48:27.381Z"
+              "context_description": "Ongoing light rain, persistent cloud cover, and weak northerly flow associated with a passing weather disturbance are keeping Beijing's overnight temperatures close to the seasonal average low of around 20\u00b0C. These conditions limit radiational cooling under clear skies while enhancing evaporative effects from precipitation, supporting market-implied probabilities clustered tightly between 19\u201322\u00b0C. Model consensus from regional forecasts shows minimal deviation from historical August baselines, with any slight downward shift in the minimum hinging on heavier localized showers or stronger winds before dawn.",
+              "context_requires_regen": false,
+              "context_updated_at": "2026-08-26T07:03:39.888Z"
             },
             "version": "v1"
           }
@@ -8448,7 +8448,7 @@
             "openInterest": 1939.3420569999998,
             "sortBy": "ascending",
             "createdAt": "2026-07-28T20:47:59.098166Z",
-            "updatedAt": "2026-08-26T06:14:05.227434Z",
+            "updatedAt": "2026-08-26T07:48:35.964642Z",
             "competitive": 0.9869476177551876,
             "volume24hr": 102,
             "volume1wk": 1511.74856,
@@ -8473,9 +8473,9 @@
             "deployingTimestamp": "2026-07-28T20:48:21.168466Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "NOAA\u2019s updated outlook and current conditions point to a below-normal 2026 Atlantic season, with only three named storms (Arthur, Bertha, Cristobal) and zero hurricanes through late August amid strengthening El Ni\u00f1o-driven vertical wind shear across the main development region. This shear, combined with drier mid-level air and below-average accumulated cyclone energy, has suppressed intensification despite sea-surface temperatures near or above average. The National Hurricane Center reports no active systems in the basin, while models show limited near-term development potential ahead of the early-September climatological peak. Traders thus see roughly even odds between 1\u20133 and 4\u20136 hurricanes, reflecting uncertainty over whether late-season waves can overcome persistent inhibiting factors before November 30.",
+              "context_description": "Persistent El Ni\u00f1o conditions have driven strong vertical wind shear and drier air across the Atlantic main development region, suppressing intensification and keeping the 2026 season well below normal. Through late August only three tropical storms\u2014Arthur, Bertha, and Cristobal\u2014have formed, with zero reaching the 74 mph hurricane threshold on the Saffir-Simpson scale and accumulated cyclone energy at just 3.1. NOAA\u2019s August update assigns a 75% probability of a below-normal season overall, forecasting 2\u20136 hurricanes. Traders therefore cluster around 1\u20133 or 4\u20136 total hurricanes, weighing the slim window remaining before November 30 against historical late-season surges that could still add several systems if shear relaxes.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:04:00.045Z"
+              "context_updated_at": "2026-08-26T07:48:35.798Z"
             },
             "version": "v1"
           }
@@ -8631,7 +8631,7 @@
             "volume": 6690.326465,
             "openInterest": 5218.686773,
             "createdAt": "2026-08-25T04:56:09.264414Z",
-            "updatedAt": "2026-08-26T06:33:06.876053Z",
+            "updatedAt": "2026-08-26T07:17:42.561882Z",
             "competitive": 0.9900990099009901,
             "volume24hr": 5535.875126,
             "volume1wk": 5612.343465,
@@ -8678,9 +8678,9 @@
             "deployingTimestamp": "2026-08-25T04:56:11.211761Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Recent KMA forecasts and supporting models indicate a high near 30\u00b0C for Incheon on August 27 under mostly cloudy to overcast skies with light westerly flow and possible drizzle, limiting daytime heating compared to clearer prior days. This aligns with late-August climatology for the region, where seasonal highs average around 29\u201330\u00b0C amid lingering monsoon moisture and elevated humidity that suppresses maximum temperatures. Ensemble guidance shows limited spread, with most runs clustering between 29\u201331\u00b0C, while any brief clearing could allow brief spikes toward 32\u00b0C. Trader consensus, reflected in the 40% implied probability on 30\u00b0C and combined 69.5% on 29\u201331\u00b0C, tracks these official outlooks and the absence of stronger ridging or subsidence that would push extremes higher. Updated model runs and KMA briefings over the next 24 hours will refine the exact peak.",
+              "context_description": "Recent model consensus from agencies including the Korea Meteorological Administration and global ensembles positions August 27 highs in Incheon near 29\u201331 \u00b0C, with cloud cover, light westerly flow, and scattered showers limiting afternoon heating. High humidity and dew points near 24\u201325 \u00b0C further moderate peak readings, consistent with late-summer climatology for the region. Multiple runs show limited spread, supporting the market\u2019s concentration on 30 \u00b0C (40 %) and 31 \u00b0C (29.5 %) as the leading outcomes while assigning lower probability to 32 \u00b0C or above. Updated short-range guidance expected within the next 12\u201318 hours will refine these probabilities ahead of the daily maximum observation.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:33:06.714Z"
+              "context_updated_at": "2026-08-26T07:17:42.392Z"
             },
             "version": "v1"
           }
@@ -8833,7 +8833,7 @@
             "volume": 45135.535298,
             "openInterest": 23465.675596999998,
             "createdAt": "2026-08-24T04:56:53.495191Z",
-            "updatedAt": "2026-08-26T06:49:00.568396Z",
+            "updatedAt": "2026-08-26T07:48:36.235764Z",
             "competitive": 0.9999000099990001,
             "volume24hr": 34930.212567,
             "volume1wk": 45016.535298,
@@ -8862,7 +8862,7 @@
                 "volume24hr": 53457.816474,
                 "volume": 57030.598505,
                 "liquidity": 146997.99418,
-                "commentCount": 911,
+                "commentCount": 913,
                 "requiresTranslation": false
               }
             ],
@@ -8880,9 +8880,9 @@
             "deployingTimestamp": "2026-08-24T04:56:55.704267Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Forecast consensus from the Shanghai Meteorological Administration and global models centers on a daily maximum of 32\u201333 \u00b0C under mostly cloudy skies and moderate northeast winds of 3\u20135 m/s.** High humidity (60\u201390 %) and limited sunshine reduce surface heating compared with clearer days, keeping temperatures below recent peaks while the urban heat-island effect at central stations (Xujiahui, Pudong) supports readings near the upper end of that range. Afternoon METAR observations at Pudong have hovered around 32 \u00b0C, with model spread and possible localized cloud breaks or brief showers creating the narrow margin between 32 \u00b0C and 33 \u00b0C resolution. Traders therefore assign roughly equal weight to these two bins, reflecting genuine uncertainty in the final official maximum once all stations are averaged for the day.",
+              "context_description": "Official forecasts and real-time observations from Shanghai stations indicate a daily maximum near 32\u201333\u00b0C under mostly sunny skies with moderate northeast winds and high humidity. Subtropical monsoon conditions, strong late-August solar insolation, and limited cloud cover support peak afternoon heating, while urban heat-island effects in the metro area add a small boost. Model consensus shows minimal cooling from any scattered afternoon clouds, keeping the outcome tightly contested between the two leading bins; a modest uptick in wind or earlier cloud build-up could favor 32\u00b0C, whereas clearer skies or slightly higher dew points tipping the thermal balance could push the official reading to 33\u00b0C.",
               "context_requires_regen": true,
-              "context_updated_at": "2026-08-26T06:32:10.084Z"
+              "context_updated_at": "2026-08-26T07:47:33.031Z"
             },
             "version": "v1"
           }
@@ -9147,7 +9147,7 @@
         "closed": false,
         "marketMakerAddress": "",
         "createdAt": "2026-08-25T00:57:11.15066Z",
-        "updatedAt": "2026-08-26T06:13:40.113068Z",
+        "updatedAt": "2026-08-26T07:01:24.663874Z",
         "new": false,
         "featured": false,
         "archived": false,
@@ -9210,7 +9210,7 @@
             "volume": 21640.101136,
             "openInterest": 17041.204537,
             "createdAt": "2026-08-25T00:57:09.825421Z",
-            "updatedAt": "2026-08-26T06:17:28.525123Z",
+            "updatedAt": "2026-08-26T07:17:20.476851Z",
             "competitive": 0.9936406995230525,
             "volume24hr": 20261.752279,
             "volume1wk": 21650.224421,
@@ -9257,9 +9257,9 @@
             "deployingTimestamp": "2026-08-25T00:57:12.974056Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Trader sentiment for the highest temperature in Los Angeles on August 26, 2026, centers on the 84\u201387\u00b0F range (combined ~79% implied probability), reflecting official National Weather Service observations and forecasts centered on the coastal Los Angeles International Airport (LAX) station rather than hotter inland or downtown areas.** \n\nA persistent marine layer and moderate onshore southwest flow have kept coastal highs in the low-to-mid 80s in recent days (e.g., 84\u201385\u00b0F observed at LAX on August 23\u201324), limiting the influence of the broader Southern California heat wave driven by a strong high-pressure ridge. Recent model consensus and NWS guidance point to similar conditions on the 26th, with sunny skies, light afternoon winds, and minimal inland heating penetration to the coast. \n\nThe close split between the 84\u201385\u00b0F and 86\u201387\u00b0F bins stems from small uncertainties in marine-layer depth, exact wind timing, and minor model spread in maximum temperatures; stronger or earlier sea breezes would cap readings near the lower end, while any temporary offshore component or clearer skies could push toward the upper end. Historical August coastal averages near 77\u201380\u00b0F underscore the modestly elevated but contained outlook, with resolution hinging on the final LAX daily maximum reported by the NWS.",
+              "context_description": "A prolonged heat wave driven by high pressure over the Southwest has elevated Southern California temperatures well above seasonal norms, but marine layer effects and afternoon sea breezes are moderating peaks at official stations like Los Angeles International Airport. National Weather Service guidance and recent model runs point to a high near 85\u00b0F there on August 26, with downtown and inland areas potentially reaching the mid-90s to low 100s. This coastal-inland contrast, combined with variable wind patterns and the heat wave's persistence through late August, creates tight uncertainty between the 84-85\u00b0F and 86-87\u00b0F bins that dominate trader consensus. Updated NWS briefings and hourly observations will refine the final recorded maximum.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:17:28.365Z"
+              "context_updated_at": "2026-08-26T07:17:20.279Z"
             },
             "version": "v1"
           }
@@ -9277,12 +9277,12 @@
             "conditionId": "0xc0f500220db14fe4d441108a6e40f686c7135d2f158cbed27f90e56954ab4191",
             "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
             "rewardsAmount": 0,
-            "rewardsDailyRate": 4,
+            "rewardsDailyRate": 16,
             "startDate": "2026-08-26",
             "endDate": "2500-12-31"
           }
         ],
-        "rewardsMinSize": 20,
+        "rewardsMinSize": 100,
         "rewardsMaxSpread": 4.5,
         "spread": 0.04,
         "oneDayPriceChange": -0.04,
@@ -9412,7 +9412,7 @@
             "volume": 6848.176756999999,
             "openInterest": 4216.787151,
             "createdAt": "2026-08-25T00:57:42.109301Z",
-            "updatedAt": "2026-08-26T06:14:05.227434Z",
+            "updatedAt": "2026-08-26T07:33:15.541144Z",
             "competitive": 0.9993753903810119,
             "volume24hr": 5213.493286,
             "volume1wk": 6848.176757,
@@ -9459,9 +9459,9 @@
             "deployingTimestamp": "2026-08-25T00:57:47.499478Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Trader sentiment for the highest temperature in Panama City, Panama, on August 26 centers on 31\u201333\u00b0C, with 32\u00b0C holding the strongest implied probability at 47.5%.** This reflects typical late-August conditions in the region\u2019s tropical wet season, when average daily highs reach 29\u201332\u00b0C amid high humidity and frequent convective activity.\n\nCurrent forecasts from multiple sources indicate a daytime maximum near 28\u201330\u00b0C, tempered by cloud cover, scattered showers, and thunderstorms that limit solar heating. These conditions align with the market\u2019s clustering around 31\u201333\u00b0C rather than higher values, as afternoon convection and Pacific maritime influence often cap peaks below seasonal extremes. Historical data show August maxima rarely exceed 33\u201334\u00b0C without clear skies or anomalous ridging, both absent in recent model guidance.\n\nKey resolution factors include official observations (e.g., from local meteorological stations), where even modest thunderstorm timing or increased cloud fraction can shift the daily high by 1\u20132\u00b0C. With probabilities heavily weighted toward the middle of the typical range and minimal tail risk shown for 34\u00b0C+, traders appear to view near-normal tropical convection as the dominant driver, with little evidence of atypical warming.",
+              "context_description": "**Trader consensus centers on 32\u00b0C as the most probable daily maximum in Panama City, Panama, on August 26, 2026, reflecting the city\u2019s typical August climatology during the rainy season.** Official and model guidance shows afternoon highs commonly reaching 30\u201333\u00b0C, with 32\u00b0C aligning closely to the long-term average high near 32\u00b0C and recent observations of 33\u00b0C the prior day.\n\nKey scientific factors include the tropical maritime climate, where high solar insolation under partly cloudy skies drives rapid daytime warming until convection and thunderstorms develop in the afternoon. Persistent humidity (often 70\u201390%) and scattered showers limit extreme spikes by enhancing cloud cover and evaporative cooling, keeping most realizations clustered around 31\u201333\u00b0C rather than outliers above 34\u00b0C or below 30\u00b0C. Model consensus and real-time monitoring from agencies like those feeding into standard weather services emphasize this narrow range, with no anomalous atmospheric setup (such as unusual subsidence or dry-air intrusion) shifting probabilities away from the historical baseline.\n\nRecent data reinforce stability: August patterns feature frequent but brief convective activity that caps peaks without major cooling, and current forecasts indicate similar conditions for the 26th. Upcoming updates from regional models or morning observations could refine the exact maximum if cloud timing changes, but the market-implied odds capture the narrow scientific uncertainty typical for this location and season.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T05:48:01.830Z"
+              "context_updated_at": "2026-08-26T07:33:15.357Z"
             },
             "version": "v1"
           }
@@ -9614,7 +9614,7 @@
             "volume": 7441.351935,
             "openInterest": 3126.982872,
             "createdAt": "2026-08-25T04:56:29.076136Z",
-            "updatedAt": "2026-08-26T06:33:08.607063Z",
+            "updatedAt": "2026-08-26T07:48:40.212212Z",
             "competitive": 0.9996001599360256,
             "volume24hr": 6683.5454,
             "volume1wk": 6764.5454,
@@ -9661,9 +9661,9 @@
             "deployingTimestamp": "2026-08-25T04:56:30.929242Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Forecasts for Ankara on August 27, 2026, cluster tightly around 32\u201333\u00b0C under mostly clear, sunny skies with light northwest winds and negligible precipitation risk.** Multiple sources, including PredictWind, Met Office, WeatherBug (91\u00b0F \u2248 33\u00b0C), and Turkish MGM, project daytime maxima in this narrow band, reflecting model consensus on strong solar heating beneath high pressure but tempered by modest advection.\n\nThe near-even split in market-implied odds (33\u00b0C at 48%, 32\u00b0C at 43.5%) stems from small differences across model runs\u2014such as slight variations in cloud cover, wind timing, or urban heat-island effects between city stations and Esenboga Airport\u2014plus the inherent resolution uncertainty in pinpointing the exact hourly peak. Official observations will come from standard meteorological stations, where even a 1\u00b0C difference can hinge on precise timing of maximum insolation.\n\nLate-August climatology supports these values, with typical highs near 30\u201332\u00b0C and low humidity aiding efficient radiative cooling overnight. No major synoptic shifts (e.g., frontal passages or anomalous moisture) are indicated in the latest guidance, keeping the two leading outcomes dominant and closely matched.",
-              "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:33:08.449Z"
+              "context_description": "Recent model consensus from sources including Turkey's Meteoroloji Genel M\u00fcd\u00fcrl\u00fc\u011f\u00fc and global ensembles points to a high-pressure ridge maintaining clear skies and light northerly winds over Ankara on August 27, supporting peak temperatures near 32\u201333 \u00b0C. This positions the two leading market outcomes in near-equilibrium as traders weigh subtle differences in afternoon heating rates and boundary-layer mixing. Low humidity (around 20\u201330 %) and minimal cloud cover favor efficient solar insolation, while any slight increase in northwest winds or delayed mixing could cap readings at 32 \u00b0C versus allowing brief spikes to 33 \u00b0C. Official station data from recent days showing comparable conditions under similar synoptic setups reinforce the tight spread, with final resolution hinging on the 24-hour forecast update cycle.",
+              "context_requires_regen": true,
+              "context_updated_at": "2026-08-26T07:48:22.862Z"
             },
             "version": "v1"
           }
@@ -9816,7 +9816,7 @@
             "volume": 2822.604307,
             "openInterest": 2722.985694,
             "createdAt": "2026-08-24T04:30:41.32196Z",
-            "updatedAt": "2026-08-26T06:33:36.817519Z",
+            "updatedAt": "2026-08-26T07:48:49.961118Z",
             "competitive": 0.8222162839935045,
             "volume24hr": 2478.865576,
             "volume1wk": 2687.604307,
@@ -9863,9 +9863,9 @@
             "deployingTimestamp": "2026-08-24T04:30:43.328223Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Forecast models and official guidance from Chinese meteorological sources indicate a nighttime low near 27\u201328\u00b0C for Wuhan on August 26, 2026, under continued subtropical high influence and limited overnight cooling.** Multiple forecasts, including local weather services and international models, consistently project a minimum of 27\u201328\u00b0C amid partly cloudy to overcast conditions, light winds, and high humidity that suppresses radiative cooling. This aligns with the market\u2019s leading 27\u00b0C outcome at 65.5% implied probability.\n\nPersistent post-fu heat (the 40-day sanfu period ended August 23 and ranked among the hottest since 1961) and minimal precipitation keep overnight temperatures elevated, with hourly data showing readings holding in the upper 20s\u00b0C through dawn. No significant frontal passage or typhoon-related moisture has arrived yet\u2014the cooling rain event tied to typhoon peripheral flow is not expected until August 30\u2013September 1. Historical climatology for late August in Wuhan supports lows typically in the mid-to-upper 20s\u00b0C, reinforcing the current consensus.\n\nTraders appear to price in the narrow range around 27\u00b0C because model runs show little dispersion in minimum temperatures and resolution criteria rely on official station observations that have tracked closely with these forecasts. Lower outcomes (25\u201326\u00b0C) carry secondary probability but would require unexpected clearer skies or stronger winds not currently indicated. The market thus reflects skin-in-the-game assessment of stable atmospheric conditions holding through the night.",
+              "context_description": "Recent forecasts from Chinese meteorological sources and international models project a minimum temperature in Wuhan of 27\u201328\u00b0C for August 26, driven by lingering high-pressure conditions that limit overnight radiative cooling after daytime highs near 36\u201337\u00b0C. Persistent humidity and light winds have kept the diurnal range narrow, aligning closely with historical late-August patterns under similar post-fu heat regimes. The 27\u00b0C outcome leads market-implied odds because ensemble guidance shows the strongest clustering around this value, with limited downside risk of deeper cooling before the anticipated rain-driven drop later in the week. Traders appear to be weighting the most recent model runs and official guidance, which show no major revisions in the past 24 hours.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:33:36.648Z"
+              "context_updated_at": "2026-08-26T07:48:49.801Z"
             },
             "version": "v1"
           }
@@ -10005,7 +10005,7 @@
             "volume": 3495.3698860000004,
             "openInterest": 2721.935197,
             "createdAt": "2026-08-25T04:58:56.985581Z",
-            "updatedAt": "2026-08-26T06:48:36.807777Z",
+            "updatedAt": "2026-08-26T07:48:36.641825Z",
             "competitive": 1,
             "volume24hr": 3436.0426030000003,
             "volume1wk": 3502.2198860000003,
@@ -10052,9 +10052,9 @@
             "deployingTimestamp": "2026-08-25T04:58:58.782115Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Recent forecasts from meteorological agencies indicate a high of 30\u201332\u00b0C in Karachi on August 27, driven by typical late-August monsoon moisture, persistent cloud cover, and moderate southwest winds from the Arabian Sea that limit daytime heating. Observed highs in recent days have ranged 31\u201333\u00b0C under similar humid conditions with light drizzle potential, aligning closely with the long-term August average of 32\u00b0C. Model consensus emphasizes these factors over stronger solar input, positioning 31\u00b0C and 32\u00b0C as the dominant market-implied outcomes while acknowledging minor variability from exact cloud timing or wind shifts.",
+              "context_description": "Recent forecasts from the Pakistan Meteorological Department and global models indicate a highest temperature in Karachi on August 27 most likely near 30\u201331\u00b0C, driven by persistent monsoon humidity, moderate southwesterly winds, and coastal sea-breeze effects that limit daytime heating. Partly cloudy conditions with low precipitation chances further support this range, consistent with late-August climatology where highs typically average 31\u201332\u00b0C. Trader consensus reflected in the market-implied odds\u201450% for 31\u00b0C and 30.5% for 32\u00b0C\u2014aligns closely with these model outputs, though minor shifts in cloud cover or wind could push the peak slightly higher or lower before resolution.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:48:36.634Z"
+              "context_updated_at": "2026-08-26T07:48:36.462Z"
             },
             "version": "v1"
           }
@@ -10207,7 +10207,7 @@
             "volume": 6714.044091,
             "openInterest": 3693.1931219999997,
             "createdAt": "2026-08-24T04:29:04.057431Z",
-            "updatedAt": "2026-08-26T06:57:30.319119Z",
+            "updatedAt": "2026-08-26T07:48:24.425075Z",
             "competitive": 0.8190679007289704,
             "volume24hr": 4514.71195,
             "volume1wk": 6714.044091,
@@ -10254,9 +10254,9 @@
             "deployingTimestamp": "2026-08-24T04:29:05.780409Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Current forecasts from official monitoring point to an overnight low near 18\u00b0C in Paris, with trader consensus split among 18\u201320\u00b0C outcomes reflecting modest uncertainty in the exact minimum.** Persistent cloud cover and light southerly flow have limited radiative cooling overnight, while elevated humidity and a recent warm spell have kept surface temperatures elevated relative to seasonal norms. Model guidance shows limited overnight drop after dawn readings near 19\u00b0C, with the precise low hinging on timing of any clearing or wind shifts. Historical August lows average around 14\u00b0C, but this pattern aligns with the upper end of recent analogs, supporting the market-implied clustering around 18\u201320\u00b0C ahead of final daily observations.",
-              "context_requires_regen": true,
-              "context_updated_at": "2026-08-26T06:48:24.765Z"
+              "context_description": "Recent forecasts from European meteorological models indicate a Paris minimum temperature on August 26 likely between 18\u201320 \u00b0C, driven by overnight radiative cooling under mostly cloudy skies and light rain that limits heat loss. These conditions produce modest temperature drops after daytime highs near 28\u201329 \u00b0C, with urban heat-island effects and moderate humidity further moderating the low. Differences among the closely matched 18 \u00b0C, 19 \u00b0C, and 20 \u00b0C outcomes hinge on small variations in model runs for cloud thickness, wind speed, and exact timing of any partial clearing before dawn. Traders weigh these uncertainties against historical August minima averaging near 14 \u00b0C and recent stable guidance showing no sharp revisions.",
+              "context_requires_regen": false,
+              "context_updated_at": "2026-08-26T07:48:24.265Z"
             },
             "version": "v1"
           }
@@ -10975,7 +10975,7 @@
             "volume": 6768.424286,
             "openInterest": 5268.961049000001,
             "createdAt": "2026-08-24T04:56:34.032489Z",
-            "updatedAt": "2026-08-26T06:52:17.818044Z",
+            "updatedAt": "2026-08-26T07:48:24.593823Z",
             "competitive": 0.9890952251428006,
             "volume24hr": 5065.722556,
             "volume1wk": 6768.424286,
@@ -11022,9 +11022,9 @@
             "deployingTimestamp": "2026-08-24T04:56:36.030937Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Active southwest monsoon conditions, including an active monsoon trough across Uttar Pradesh and expected overcast skies with spells of rain or thundershowers, are the main drivers keeping implied probabilities highest for a 30\u201331\u00b0C maximum in Lucknow on August 26. Official IMD guidance and multiple forecast models anticipate cloud cover and precipitation limiting daytime heating, consistent with recent below-normal readings such as 30.4\u00b0C on August 25. High humidity and light easterly winds further suppress peak values relative to clearer monsoon breaks. Forecast uncertainty between 30\u00b0C and 32\u00b0C accounts for the tight market split, with traders weighting the balance of model runs showing isolated heavy rain versus partial clearing. Updated IMD observations and station data will determine final resolution.",
-              "context_requires_regen": true,
-              "context_updated_at": "2026-08-26T06:18:05.912Z"
+              "context_description": "Active monsoon conditions, including a trough line over central and eastern Uttar Pradesh, widespread cloud cover, and spells of rain or thundershowers, are suppressing daytime heating in Lucknow on August 26 and keeping maximum temperatures below seasonal norms around 33\u201334\u00b0C. Official IMD guidance and recent observations point to overcast skies with a high probability of precipitation, following 30.4\u00b0C recorded the prior day amid light showers and 80\u201394% humidity. Trader consensus favoring 30\u201332\u00b0C reflects model expectations for sustained moisture and limited solar insolation, with small probability spreads between outcomes driven by uncertainties in rainfall timing, storm intensity, and exact cloud persistence through peak afternoon hours.",
+              "context_requires_regen": false,
+              "context_updated_at": "2026-08-26T07:48:24.420Z"
             },
             "version": "v1"
           }
@@ -11177,7 +11177,7 @@
             "volume": 11736.959614,
             "openInterest": 7052.834791,
             "createdAt": "2026-08-24T04:58:45.884946Z",
-            "updatedAt": "2026-08-26T06:47:53.861248Z",
+            "updatedAt": "2026-08-26T07:48:00.147935Z",
             "competitive": 0.9846153846153846,
             "volume24hr": 9542.640139,
             "volume1wk": 11786.959614000001,
@@ -11224,9 +11224,9 @@
             "deployingTimestamp": "2026-08-24T04:58:48.128571Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Forecast models and early observations for Cape Town on August 26, 2026, indicate a daytime maximum in the mid-20s \u00b0C under partly cloudy to overcast skies, light southerly to southeasterly winds, and moderate humidity, positioning 25\u00b0C as the market leader followed closely by 26\u00b0C and 24\u00b0C. Detailed hourly guidance shows temperatures rising from morning lows near 12\u201313\u00b0C to afternoon peaks of 24\u201326\u00b0C before declining, consistent with typical late-winter patterns influenced by regional pressure systems and limited cloud suppression of insolation. Minor model spread in exact timing of peak heating and wind shifts accounts for the tight clustering of probabilities around these three outcomes, with lower odds for extremes reflecting the absence of strong warming or cooling signals in current data. Updated short-range forecasts and official station readings will refine resolution as the day progresses.",
+              "context_description": "Forecast models from sources including the South African Weather Service and Met.no indicate a peak daytime maximum near 24\u201326\u00b0C for Cape Town on August 26, driven by partly cloudy to overcast skies, light southerly to southwesterly winds, and minimal precipitation that permits gradual surface heating after morning lows around 10\u201313\u00b0C. This diurnal warming aligns with late-winter Mediterranean-climate patterns, where clear intervals allow shortwave radiation to elevate temperatures without strong advection of cooler marine air. Recent model runs show consistent guidance with limited spread, positioning 25\u00b0C as the mode while assigning modest probability to 26\u00b0C if afternoon insolation strengthens slightly; lower outcomes would require unexpected persistent cloud cover or wind shifts. Official station data at Cape Town International Airport will resolve the exact maximum against these thresholds.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:47:53.688Z"
+              "context_updated_at": "2026-08-26T07:47:59.993Z"
             },
             "version": "v1"
           }
@@ -11377,7 +11377,7 @@
             "volume": 10318.312123000002,
             "openInterest": 6022.537049999999,
             "createdAt": "2026-08-24T04:58:14.198527Z",
-            "updatedAt": "2026-08-26T06:48:05.823186Z",
+            "updatedAt": "2026-08-26T07:48:10.782539Z",
             "competitive": 0.9996001599360256,
             "volume24hr": 7824.191076000001,
             "volume1wk": 10094.315123,
@@ -11424,9 +11424,9 @@
             "deployingTimestamp": "2026-08-24T04:58:16.216735Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "**Official forecasts from Russia's Hydrometeorological Center position the daytime high in Moscow at 16\u201318\u00b0C on August 26, 2026, under mostly cloudy skies with possible light rain and northwest winds of 5\u201310 m/s.** This range aligns directly with the market's leading outcomes (17\u00b0C at 48%, 18\u00b0C at 37%, 16\u00b0C at 13.5%), reflecting trader consensus around the authoritative prediction issued that day.\n\nCooler-than-average conditions stem from persistent cloud cover limiting solar insolation, combined with a westerly/northwesterly flow advecting cooler maritime air masses. Morning temperatures near 13\u201315\u00b0C and a forecast low near 11\u00b0C further constrain daytime warming. The pattern sits below the long-term August 26 average high of ~20.8\u00b0C, with no recent model shifts or observational data suggesting intensification or clearing that would push readings higher.\n\nTraders appear to treat the Hydrometcenter guidance as the primary resolution benchmark, with implied probabilities concentrating tightly on the 16\u201318\u00b0C window while discounting warmer or cooler outliers.",
+              "context_description": "Official forecasts from Russia's Hydrometeorological Center indicate Moscow's daytime high on August 26 will range from 16\u201318\u00b0C under cloudy skies with occasional light rain and northwest winds of 5\u201310 m/s, limiting solar heating. These conditions suppress peak temperatures below the late-August climatological average near 19\u201322\u00b0C, with current morning readings around 13\u201315\u00b0C and limited afternoon recovery expected. Model consensus supports modest warming but favors the 17\u00b0C and 18\u00b0C thresholds as the most probable daily maxima, aligning with trader-implied odds of 48% and 37%. Updated agency briefings and real-time observations will refine resolution near day's end.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:48:05.636Z"
+              "context_updated_at": "2026-08-26T07:48:10.616Z"
             },
             "version": "v1"
           }
@@ -11568,7 +11568,7 @@
             "volume": 11736.959614,
             "openInterest": 7052.834791,
             "createdAt": "2026-08-24T04:58:45.884946Z",
-            "updatedAt": "2026-08-26T06:47:53.861248Z",
+            "updatedAt": "2026-08-26T07:48:00.147935Z",
             "competitive": 0.9846153846153846,
             "volume24hr": 9542.640139,
             "volume1wk": 11786.959614000001,
@@ -11615,9 +11615,9 @@
             "deployingTimestamp": "2026-08-24T04:58:48.128571Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "Forecast models and early observations for Cape Town on August 26, 2026, indicate a daytime maximum in the mid-20s \u00b0C under partly cloudy to overcast skies, light southerly to southeasterly winds, and moderate humidity, positioning 25\u00b0C as the market leader followed closely by 26\u00b0C and 24\u00b0C. Detailed hourly guidance shows temperatures rising from morning lows near 12\u201313\u00b0C to afternoon peaks of 24\u201326\u00b0C before declining, consistent with typical late-winter patterns influenced by regional pressure systems and limited cloud suppression of insolation. Minor model spread in exact timing of peak heating and wind shifts accounts for the tight clustering of probabilities around these three outcomes, with lower odds for extremes reflecting the absence of strong warming or cooling signals in current data. Updated short-range forecasts and official station readings will refine resolution as the day progresses.",
+              "context_description": "Forecast models from sources including the South African Weather Service and Met.no indicate a peak daytime maximum near 24\u201326\u00b0C for Cape Town on August 26, driven by partly cloudy to overcast skies, light southerly to southwesterly winds, and minimal precipitation that permits gradual surface heating after morning lows around 10\u201313\u00b0C. This diurnal warming aligns with late-winter Mediterranean-climate patterns, where clear intervals allow shortwave radiation to elevate temperatures without strong advection of cooler marine air. Recent model runs show consistent guidance with limited spread, positioning 25\u00b0C as the mode while assigning modest probability to 26\u00b0C if afternoon insolation strengthens slightly; lower outcomes would require unexpected persistent cloud cover or wind shifts. Official station data at Cape Town International Airport will resolve the exact maximum against these thresholds.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:47:53.688Z"
+              "context_updated_at": "2026-08-26T07:47:59.993Z"
             },
             "version": "v1"
           }
@@ -11768,7 +11768,7 @@
             "openInterest": 2506.0780890000005,
             "sortBy": "ascending",
             "createdAt": "2026-07-24T16:52:53.095506Z",
-            "updatedAt": "2026-08-26T06:17:37.760831Z",
+            "updatedAt": "2026-08-26T07:32:48.71036Z",
             "competitive": 0.9991008092716555,
             "volume24hr": 4888.113869,
             "volume1wk": 10438.379589,
@@ -11793,9 +11793,9 @@
             "deployingTimestamp": "2026-07-24T16:53:23.968543Z",
             "requiresTranslation": false,
             "eventMetadata": {
-              "context_description": "The quietest Atlantic hurricane season in decades, with only three short-lived tropical storms (Arthur, Bertha, Cristobal) and zero hurricanes through late August, underpins trader consensus favoring Dolly or Edouard as the first system to reach 74 mph winds on the Saffir-Simpson scale. Persistent El Ni\u00f1o-driven wind shear and below-average sea surface temperatures have suppressed intensification, delaying the typical mid-August arrival of the season\u2019s first hurricane. Current NHC monitoring of Invest 96L east of the Cabo Verde Islands\u2014carrying a 60-70% chance of tropical depression formation this week\u2014positions Dolly as the immediate candidate, though marginal conditions may keep it below hurricane strength. Subsequent systems face similar headwinds, with model consensus and updated shear forecasts expected to refine these implied probabilities ahead of the climatological peak.",
+              "context_description": "**Trader sentiment for the first Atlantic hurricane name in 2026 centers on the basin\u2019s unusually suppressed conditions through late August.** Only three tropical storms\u2014Arthur, Bertha, and Cristobal\u2014have formed, none reaching the 74 mph Saffir-Simpson threshold for hurricane status, amid elevated wind shear, dry mid-level air, and lingering El Ni\u00f1o influences that have kept accumulated cyclone energy far below normal. With the next name on the official list being Dolly, the 47% market-implied odds reflect the elevated near-term probability that an approaching disturbance will organize and intensify sufficiently to become the season\u2019s first hurricane before later names like Edouard enter contention. NOAA\u2019s August update maintains a 75% chance of a below-normal season overall (7\u201313 named storms, 2\u20136 hurricanes), underscoring that any early intensification would likely involve the immediate next systems rather than requiring a major shift in steering or thermodynamics. Upcoming National Hurricane Center model runs and shear forecasts through early September remain the key near-term catalysts.",
               "context_requires_regen": false,
-              "context_updated_at": "2026-08-26T06:17:37.591Z"
+              "context_updated_at": "2026-08-26T07:32:48.556Z"
             },
             "version": "v1"
           }
